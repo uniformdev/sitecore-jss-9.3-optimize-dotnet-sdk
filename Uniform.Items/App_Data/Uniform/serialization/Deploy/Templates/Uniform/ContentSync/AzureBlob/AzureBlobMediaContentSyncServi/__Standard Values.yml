@@ -1,0 +1,18 @@
+﻿---
+ID: "f2167d66-02dc-4291-a370-e71ccceb3467"
+Parent: "af65c625-73e4-4fc3-bcb4-74a91a9b5a45"
+Template: "af65c625-73e4-4fc3-bcb4-74a91a9b5a45"
+Path: /sitecore/templates/Uniform/ContentSync/AzureBlob/AzureBlobMediaContentSyncService/__Standard Values
+DB: master
+SharedFields:
+- ID: "8e740fc6-20d8-43fd-ac47-014343ec67c5"
+  Hint: Attributes
+  Value: ref=uniform%2Fservices%2FazureBlobMediaContentSyncService
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210211T072058Z

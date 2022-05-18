@@ -1,0 +1,23 @@
+﻿---
+ID: "88edfa9c-4842-4a32-864e-9779f5573eea"
+Parent: "d6d15c0d-4c7d-4222-b38b-0d453aa85911"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Uniform/Modules/Optimize/Tracking/Activities
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{3335B799-E9CA-40A0-95C3-8F49C1F8F164}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200813T205551Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

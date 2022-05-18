@@ -1,0 +1,18 @@
+﻿---
+ID: "516369c4-a4fe-49e4-8cd3-73aeabfc4558"
+Parent: "0dc5d908-23ab-446c-984e-002b8732a7e4"
+Template: "0dc5d908-23ab-446c-984e-002b8732a7e4"
+Path: /sitecore/templates/Uniform/ContentSync/AkamaiNetStorage/AkamaiNetStoragePageContentSyncService/__Standard Values
+DB: master
+SharedFields:
+- ID: "8e740fc6-20d8-43fd-ac47-014343ec67c5"
+  Hint: Attributes
+  Value: ref=uniform%2Fservices%2FakamaiNetStoragePageContentSyncService
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210211T072102Z

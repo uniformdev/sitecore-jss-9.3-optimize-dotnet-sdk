@@ -1,0 +1,22 @@
+﻿---
+ID: "0756b58e-7d56-46d2-a47c-7e047f63765d"
+Parent: "ccf33e64-26b5-48ba-a65c-2a95a5a7048a"
+Template: "ef295cd8-19d4-4e02-9438-94c926ef5284"
+Path: /sitecore/content/Applications/Content Editor/Ribbons/Strips/Uniform/Administration
+DB: core
+SharedFields:
+- ID: "c9ce97fb-3e8e-4384-9430-7dba75b275dd"
+  Hint: Reference
+  Value: "{EE9BC269-5C26-4898-B6B5-9476B3020530}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200419T155247Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

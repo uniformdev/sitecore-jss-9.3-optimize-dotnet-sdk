@@ -1,0 +1,14 @@
+﻿---
+ID: "fd233f20-9cb5-4867-bd06-8ecd781c0140"
+Parent: "02dd71a3-5ed8-40c9-aa37-d2f40d8b1fe1"
+Template: "5e83cc80-f16e-4baa-9154-b6f887c91a0f"
+Path: /sitecore/templates/Uniform/Presets/Branches/Netlify/$name/Configuration/ContentSync
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210208T152739Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "b237d70f-49df-4dcf-979a-144ea0b816ad"
+Parent: "80fa557f-a73d-4a3f-befc-7fb32cc95e47"
+Template: "610dfb3c-1af2-440a-8158-196c3ad2d5fa"
+Path: /sitecore/templates/Uniform/Presets/Branches/Netlify/$name
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210208T152552Z

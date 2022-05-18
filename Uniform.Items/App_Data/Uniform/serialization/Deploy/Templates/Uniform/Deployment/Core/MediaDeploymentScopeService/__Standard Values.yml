@@ -1,0 +1,22 @@
+﻿---
+ID: "9ea57d11-eef0-4ff7-8285-132579703c67"
+Parent: "bfca84e7-d500-49cb-be99-7fcf3fd81fc1"
+Template: "bfca84e7-d500-49cb-be99-7fcf3fd81fc1"
+Path: /sitecore/templates/Uniform/Deployment/Core/MediaDeploymentScopeService/__Standard Values
+DB: master
+SharedFields:
+- ID: "8e740fc6-20d8-43fd-ac47-014343ec67c5"
+  Hint: Attributes
+  Value: ref=uniform%2Fservices%2FmediaDeploymentScopeService
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210106T221330Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

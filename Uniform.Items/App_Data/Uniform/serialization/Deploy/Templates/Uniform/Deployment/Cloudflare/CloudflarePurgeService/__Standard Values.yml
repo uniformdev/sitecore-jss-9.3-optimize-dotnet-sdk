@@ -1,0 +1,28 @@
+﻿---
+ID: "7d7da206-667d-447c-aafd-e49dec2f8652"
+Parent: "211b57ed-f0e2-4458-bfaf-dfa3e6ac6ab5"
+Template: "211b57ed-f0e2-4458-bfaf-dfa3e6ac6ab5"
+Path: /sitecore/templates/Uniform/Deployment/Cloudflare/CloudflarePurgeService/__Standard Values
+DB: master
+SharedFields:
+- ID: "8e740fc6-20d8-43fd-ac47-014343ec67c5"
+  Hint: Attributes
+  Value: ref=uniform%2Fservices%2FcloudflarePurgeService
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210106T221408Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "de60ba00-b1a6-4902-8ac6-dd6a64a68db6"
+      Hint: ChangedItemsCount
+      Value: 600
+    - ID: "fd30988f-3075-4145-94a3-6d08bb2faab1"
+      Hint: RetriesCount
+      Value: 3

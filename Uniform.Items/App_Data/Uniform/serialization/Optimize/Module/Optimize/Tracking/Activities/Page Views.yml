@@ -1,0 +1,18 @@
+﻿---
+ID: "9a132d81-5a40-4123-9e5e-9f0f57efa15d"
+Parent: "88edfa9c-4842-4a32-864e-9779f5573eea"
+Template: "3335b799-e9ca-40a0-95c3-8f49c1f8f164"
+Path: /sitecore/system/Uniform/Modules/Optimize/Tracking/Activities/Page Views
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200924T000841Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

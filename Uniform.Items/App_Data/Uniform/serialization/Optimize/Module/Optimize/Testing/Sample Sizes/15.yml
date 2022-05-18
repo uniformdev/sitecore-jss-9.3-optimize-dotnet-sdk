@@ -1,0 +1,18 @@
+﻿---
+ID: "70b8929f-bfd8-407f-89af-fad99a893a8d"
+Parent: "e81833db-96d0-4a52-8b84-a1431e23506d"
+Template: "e756bc2b-d81f-4160-8cf9-ae0adb971c05"
+Path: /sitecore/system/Uniform/Modules/Optimize/Testing/Sample Sizes/15
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200408T164202Z

@@ -1,0 +1,18 @@
+﻿---
+ID: "f78cb0e3-4d46-437e-b1e0-6aedf35d8a24"
+Parent: "1c719428-28a8-4377-bf4b-85b5b715a8de"
+Template: "1c719428-28a8-4377-bf4b-85b5b715a8de"
+Path: /sitecore/templates/Uniform Optimize/Page Mode/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210227T152106Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

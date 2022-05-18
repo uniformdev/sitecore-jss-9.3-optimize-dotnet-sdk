@@ -1,0 +1,32 @@
+﻿---
+ID: "0104ac9b-e3d6-4094-bcb1-8445a890b37e"
+Parent: "610dfb3c-1af2-440a-8158-196c3ad2d5fa"
+Template: "610dfb3c-1af2-440a-8158-196c3ad2d5fa"
+Path: /sitecore/templates/Uniform/Core/SiteConfiguration/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {FA8E1836-01F6-420E-8A1B-8F37AB6EEB84}
+    {D0F6233F-0B7C-4342-AD4F-5F63ACA62752}
+    {FBA7F20E-7CD7-4D8A-874A-DA4F889A28DA}
+- ID: "a5a2be0f-3f2a-49df-b603-6b31e4316f27"
+  Hint: Comments
+  Value: |
+    [!] Do not modify "Full Deployment Requested" field manually
+    
+    If the "Full Deployment Requested" field is modified and the item gets published, incremental deployment scope service will request the full site deployment even there were no content changes (if partial deployments are configured)
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210106T105016Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

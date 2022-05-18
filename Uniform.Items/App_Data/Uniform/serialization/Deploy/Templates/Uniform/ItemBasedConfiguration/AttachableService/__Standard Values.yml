@@ -1,0 +1,29 @@
+﻿---
+ID: "1e7a035a-2936-44c6-b7cd-0edca879fe33"
+Parent: "bd2df16b-fa23-4de2-b39b-dcb8ce12e19e"
+Template: "bd2df16b-fa23-4de2-b39b-dcb8ce12e19e"
+Path: /sitecore/templates/Uniform/ItemBasedConfiguration/AttachableService/__Standard Values
+DB: master
+SharedFields:
+- ID: "cf249fc5-eca9-45f2-a557-a97ad866890d"
+  Hint: Comments
+  Value: |
+    Use "Enabled" field above to temporarily disable the service
+    
+    [!] Ignore "Attributes" field below, it is for system use only
+- ID: "f8a490ca-a2a3-4f28-8509-0e13f2ea9135"
+  Hint: Enabled
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210209T022006Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

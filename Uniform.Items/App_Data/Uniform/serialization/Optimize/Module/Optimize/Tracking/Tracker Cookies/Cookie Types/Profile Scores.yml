@@ -1,0 +1,18 @@
+﻿---
+ID: "6fc83a51-4ed9-427b-aae6-33dfa042e06d"
+Parent: "ea863c4a-450d-4384-99cb-7a603cb6b562"
+Template: "021d3ddc-eb10-48ea-b86e-734ab3f99107"
+Path: /sitecore/system/Uniform/Modules/Optimize/Tracking/Tracker Cookies/Cookie Types/Profile Scores
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201007T151237Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,28 @@
+﻿---
+ID: "92ee50b6-817c-43e7-8460-fb7f2e00c859"
+Parent: "88f2ff2e-543f-4b7f-a7c3-109e23a7ae42"
+Template: "a5aaca0d-77c0-4741-ab77-211cfbdd9e5c"
+Path: /sitecore/content/Applications/Content Editor/Editors/Uniform/Initial Content Sync
+DB: core
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/data_copy.png
+- ID: "6f371c74-5bd5-4ebd-b10a-fc54716021ae"
+  Hint: Url
+  Value: /sitecore/admin/Uniform/ContentSync.aspx
+- ID: "ab8d0102-91f3-43b6-90aa-5a0641dc8521"
+  Hint: Icon
+  Value: office/32x32/data_copy.png
+Languages:
+- Language: en
+  Fields:
+  - ID: "f7c42332-728e-48b7-bb3c-0d6883e45628"
+    Hint: Header
+    Value: Initial Content Sync
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200904T125050Z

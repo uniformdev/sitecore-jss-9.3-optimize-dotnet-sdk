@@ -1,0 +1,23 @@
+﻿---
+ID: "fbbb77d5-a125-454f-99a2-ad2d7d1dcfe6"
+Parent: "d6d15c0d-4c7d-4222-b38b-0d453aa85911"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Uniform/Modules/Optimize/Tracking/Contact Properties
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{050BE51D-E563-4629-8094-C90B3F49A77F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200605T040442Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

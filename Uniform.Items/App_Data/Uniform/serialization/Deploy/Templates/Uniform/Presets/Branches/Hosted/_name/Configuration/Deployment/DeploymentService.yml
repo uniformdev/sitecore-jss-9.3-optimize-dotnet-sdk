@@ -1,0 +1,28 @@
+﻿---
+ID: "4cf70134-9775-45c0-bffa-afe9761b976c"
+Parent: "3c6e8251-8fa6-432b-8028-aa73d0069edf"
+Template: "1afc21e7-2eee-4101-adda-8c2fe398f8a5"
+Path: /sitecore/templates/Uniform/Presets/Branches/Hosted/$name/Configuration/Deployment/DeploymentService
+DB: master
+SharedFields:
+- ID: "1394fd32-e9ad-4e81-937f-d4213af97001"
+  Hint: EnvironmentVariables
+  Value: UNIFORM_PUBLISH_TARGET=azureblob&AZURE_CONTAINER=%24web&AZURE_STORAGE_CONNECTION_STRING
+- ID: "cf249fc5-eca9-45f2-a557-a97ad866890d"
+  Hint: Comments
+  Value: |
+    This item is pre-configured to use local self-hosted Next.js application (based on one of Uniform Starter Kits) that runs on default http://localhost:3000. 
+    The configuration though is !!! INCOMPLETE !!! and it requires: 
+    * setting up Azure Storage account and enabling static website 
+    * copying Connection String to AZURE_STORAGE_CONNECTION_STRING value in EnvironmentVariables above
+- ID: "cf66414c-ae4e-479d-b8cf-5ad12e34634d"
+  Hint: ServiceUrl
+  Value: "http://localhost:3000"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210208T153141Z

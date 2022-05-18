@@ -1,0 +1,18 @@
+﻿---
+ID: "520787b9-a73e-454e-b3d2-113e9a3469d2"
+Parent: "fbbb77d5-a125-454f-99a2-ad2d7d1dcfe6"
+Template: "050be51d-e563-4629-8094-c90b3f49a77f"
+Path: /sitecore/system/Uniform/Modules/Optimize/Tracking/Contact Properties/Contact Id
+DB: master
+SharedFields:
+- ID: "32528e9c-b783-4a2f-b29a-d14f01d2fc7e"
+  Hint: Property name
+  Value: id
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200605T055701Z

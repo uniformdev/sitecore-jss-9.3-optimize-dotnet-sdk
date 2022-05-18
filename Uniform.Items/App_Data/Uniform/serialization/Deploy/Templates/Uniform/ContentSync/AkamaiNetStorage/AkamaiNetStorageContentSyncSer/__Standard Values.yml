@@ -1,0 +1,18 @@
+﻿---
+ID: "d0938495-0af6-4866-b69f-1325c71fdad0"
+Parent: "b83ce854-c8b1-4b42-90d7-eb38e504404d"
+Template: "b83ce854-c8b1-4b42-90d7-eb38e504404d"
+Path: /sitecore/templates/Uniform/ContentSync/AkamaiNetStorage/AkamaiNetStorageContentSyncService/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210106T221440Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

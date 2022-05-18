@@ -1,0 +1,18 @@
+﻿---
+ID: "704898fa-0de7-4a6b-8f56-0b09d2d7dfa8"
+Parent: "60bab7fd-6207-4af2-9100-3b9be94e05ec"
+Template: "84a60d15-5823-4462-af0d-f5f150c03363"
+Path: /sitecore/system/Uniform/Modules/Optimize/Tracking/Destinations/Oracle DMP/Campaign Properties/Campaign Id
+DB: master
+SharedFields:
+- ID: "b76e152b-d266-4ff5-8929-d1b64b3e546d"
+  Hint: Property
+  Value: campaign
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201026T005957Z

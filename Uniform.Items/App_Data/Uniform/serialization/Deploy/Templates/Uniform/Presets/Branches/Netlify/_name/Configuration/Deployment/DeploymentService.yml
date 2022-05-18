@@ -1,0 +1,14 @@
+﻿---
+ID: "6aa5538a-fe1f-44e5-b84a-a854c00ca063"
+Parent: "e9376fc7-df5f-4940-97fc-dfda92b4bd72"
+Template: "cd16e01a-3e30-421a-98b9-0d3b28fed5fd"
+Path: /sitecore/templates/Uniform/Presets/Branches/Netlify/$name/Configuration/Deployment/DeploymentService
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210209T013342Z

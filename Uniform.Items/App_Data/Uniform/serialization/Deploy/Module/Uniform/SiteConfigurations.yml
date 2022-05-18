@@ -1,0 +1,33 @@
+﻿---
+ID: "e09eabce-cbfa-48ce-bbb0-a7aacab007f2"
+Parent: "b22e69ae-7346-42ce-8381-c45f7df8150a"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Uniform/SiteConfigurations
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/16x16/folder.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {E4D75D99-0579-4AAD-81DF-025682B46CD2}
+    {99B14E51-EC3A-454B-9234-066D4A313F43}
+    {80FA557F-A73D-4A3F-BEFC-7FB32CC95E47}
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Site Configurations
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200719T183617Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

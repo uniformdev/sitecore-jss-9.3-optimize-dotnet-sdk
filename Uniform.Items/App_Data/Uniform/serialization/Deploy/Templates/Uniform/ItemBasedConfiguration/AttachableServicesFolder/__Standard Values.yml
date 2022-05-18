@@ -1,0 +1,22 @@
+﻿---
+ID: "0960043a-e6c1-4b9e-96ff-f316a7429241"
+Parent: "5e83cc80-f16e-4baa-9154-b6f887c91a0f"
+Template: "5e83cc80-f16e-4baa-9154-b6f887c91a0f"
+Path: /sitecore/templates/Uniform/ItemBasedConfiguration/AttachableServicesFolder/__Standard Values
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-99999"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210106T154751Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

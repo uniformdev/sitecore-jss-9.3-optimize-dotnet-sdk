@@ -1,0 +1,36 @@
+﻿---
+ID: "de60ba00-b1a6-4902-8ac6-dd6a64a68db6"
+Parent: "bc02fb48-c9ac-4bcf-bdf4-520f8579eafe"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Uniform/Deployment/Cloudflare/CloudflarePurgeService/Configuration/ChangedItemsCount
+DB: master
+SharedFields:
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link url="https://support.cloudflare.com/hc/en-us/articles/200171456-How-many-API-calls-can-I-make" linktype="internal" />
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Integer
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: "Cloudflare has limitations: 30 URLs per request and 1200 requests every 5 min. Because of this ChangedItemsCount is used for switching on purge all files, default value 600."
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: "Cloudflare limits: 30 pages per request and 1200 requests per 5 minutes"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210730T055125Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

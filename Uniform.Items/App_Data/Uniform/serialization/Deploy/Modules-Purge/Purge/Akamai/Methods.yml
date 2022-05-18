@@ -1,0 +1,18 @@
+﻿---
+ID: "c49c59c4-9d65-47d9-be40-b963b84e497b"
+Parent: "2bd7f36e-62f6-4016-9213-fbd45b281863"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Uniform/Modules/Purge/Akamai/Methods
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210517T124059Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,18 @@
+﻿---
+ID: "b35ba867-f1f0-44dc-8d13-e9e2097ed34a"
+Parent: "c9fe65da-ecd1-4396-a74b-afb01d86c0b3"
+Template: "c9fe65da-ecd1-4396-a74b-afb01d86c0b3"
+Path: /sitecore/templates/Uniform Optimize/Tracking/Throttling Cutoff Criteria/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210407T164354Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

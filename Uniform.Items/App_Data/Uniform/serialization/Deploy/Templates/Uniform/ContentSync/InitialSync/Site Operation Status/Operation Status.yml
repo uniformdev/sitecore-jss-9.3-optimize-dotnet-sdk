@@ -1,0 +1,18 @@
+﻿---
+ID: "6ea8c215-ef33-4266-8bc1-df0b0e8532b9"
+Parent: "3cb4a672-7fd8-441e-9f76-c219524a8ede"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Uniform/ContentSync/InitialSync/Site Operation Status/Operation Status
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200709T013656Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

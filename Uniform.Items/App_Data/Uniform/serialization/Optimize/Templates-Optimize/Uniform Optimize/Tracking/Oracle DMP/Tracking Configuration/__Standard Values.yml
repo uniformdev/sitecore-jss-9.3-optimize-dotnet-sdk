@@ -1,0 +1,28 @@
+﻿---
+ID: "5f72e821-63b9-4b24-807e-6ad95ad46a95"
+Parent: "e2352018-8343-472d-955b-7d352b3a871f"
+Template: "e2352018-8343-472d-955b-7d352b3a871f"
+Path: /sitecore/templates/Uniform Optimize/Tracking/Oracle DMP/Tracking Configuration/__Standard Values
+DB: master
+SharedFields:
+- ID: "514dceb4-72fd-45c5-896a-30b973d9b0f5"
+  Hint: Campaign ID
+  Value: "{704898FA-0DE7-4A6B-8F56-0B09D2D7DFA8}"
+- ID: "91644442-08b7-467f-8c9a-0112aeb4a9eb"
+  Hint: Audience ID
+  Value: "{67C86A59-AB12-4CA8-9784-F638B698047D}"
+- ID: "e7f4cc78-0f60-4a22-abc6-8fad0c775c2a"
+  Hint: ScriptUrl
+  Value: "//tags.bkrtx.com/js/bk-coretag.js"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200922T200556Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

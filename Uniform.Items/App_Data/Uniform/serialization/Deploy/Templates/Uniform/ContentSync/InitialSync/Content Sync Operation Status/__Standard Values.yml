@@ -1,0 +1,19 @@
+﻿---
+ID: "a7231312-718a-4f75-b1e2-2331a0428314"
+Parent: "e3c8228c-7fbf-4eb7-8efd-910e60888406"
+Template: "e3c8228c-7fbf-4eb7-8efd-910e60888406"
+Path: /sitecore/templates/Uniform/ContentSync/InitialSync/Content Sync Operation Status/__Standard Values
+DB: master
+SharedFields:
+- ID: "a0cb3965-8884-4c7a-8815-b6b2e5ced162"
+  Hint: __Editors
+  Type: TreelistEx
+  Value: "{92EE50B6-817C-43E7-8460-FB7F2E00C859}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200916T123227Z

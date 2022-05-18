@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uniform.SDK", "Uniform.SDK\Uniform.SDK.csproj", "{5024CE64-8973-473F-AA53-565F1525A40D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uniform.Items", "Uniform.Items\Uniform.Items.csproj", "{0A6E6C32-7D77-4184-8A55-08CFDF6CFE8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5024CE64-8973-473F-AA53-565F1525A40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5024CE64-8973-473F-AA53-565F1525A40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5024CE64-8973-473F-AA53-565F1525A40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5024CE64-8973-473F-AA53-565F1525A40D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A6E6C32-7D77-4184-8A55-08CFDF6CFE8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A6E6C32-7D77-4184-8A55-08CFDF6CFE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A6E6C32-7D77-4184-8A55-08CFDF6CFE8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A6E6C32-7D77-4184-8A55-08CFDF6CFE8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C61C8F5-CB24-471F-9A54-6B8300472673}
+	EndGlobalSection
+EndGlobal

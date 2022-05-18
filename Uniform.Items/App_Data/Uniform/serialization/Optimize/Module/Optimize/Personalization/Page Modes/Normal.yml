@@ -1,0 +1,14 @@
+﻿---
+ID: "842a8a8f-b7d2-499e-a18c-87a9c114dcfc"
+Parent: "b9706acd-9342-45db-85bf-21a117c067a1"
+Template: "1c719428-28a8-4377-bf4b-85b5b715a8de"
+Path: /sitecore/system/Uniform/Modules/Optimize/Personalization/Page Modes/Normal
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210227T152530Z

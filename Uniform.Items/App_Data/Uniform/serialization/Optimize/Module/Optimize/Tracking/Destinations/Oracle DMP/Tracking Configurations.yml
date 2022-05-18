@@ -1,0 +1,19 @@
+﻿---
+ID: "f54c91ad-8ad3-4310-8587-a161e80bee4e"
+Parent: "0b3a759b-7148-41fa-aa55-887c313f46bd"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Uniform/Modules/Optimize/Tracking/Destinations/Oracle DMP/Tracking Configurations
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{E2352018-8343-472D-955B-7D352B3A871F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200922T200821Z

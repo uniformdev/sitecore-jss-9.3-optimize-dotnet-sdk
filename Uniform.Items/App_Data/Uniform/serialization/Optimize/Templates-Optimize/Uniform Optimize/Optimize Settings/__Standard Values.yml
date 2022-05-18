@@ -1,0 +1,54 @@
+﻿---
+ID: "a1a509d4-f794-4563-935a-928472a72ce5"
+Parent: "b6a85142-b729-4174-ba31-57c0aedb2d5b"
+Template: "b6a85142-b729-4174-ba31-57c0aedb2d5b"
+Path: /sitecore/templates/Uniform Optimize/Optimize Settings/__Standard Values
+DB: master
+SharedFields:
+- ID: "03f130a0-83a7-44af-9ff6-7fd5c1b3b7e1"
+  Hint: GoalParameters
+  Value: sc_goals
+- ID: "154066b8-21b0-4b55-baf4-652201588a48"
+  Hint: TrackerCookiesProfileScores
+  Value: "{F8ADE054-7D14-469A-AF89-B51D0D055E17}"
+- ID: "614e3939-9cdf-4fa0-a8b0-81ec1197bb30"
+  Hint: TrackerCookiesCampaigns
+  Value: "{F8ADE054-7D14-469A-AF89-B51D0D055E17}"
+- ID: "78501c89-4e7f-41ed-b164-764f47b3d0dd"
+  Hint: SessionTimeout
+  Value: 20
+- ID: "a171f850-1698-4f2d-a2a7-fc34dc8d855e"
+  Hint: TrackerCookiesPatternMatches
+  Value: "{F8ADE054-7D14-469A-AF89-B51D0D055E17}"
+- ID: "a1cf3650-b68c-46f5-b05f-842096adf7bb"
+  Hint: CampaignParameters
+  Value: sc_camp
+- ID: "a60cae52-b070-49b8-9240-aa030128a445"
+  Hint: IncludeScript
+  Type: Checkbox
+  Value: 0
+- ID: "abce199f-a17b-4844-8fe4-124db6e32c17"
+  Hint: TrackerCookiesGoals
+  Value: "{F8ADE054-7D14-469A-AF89-B51D0D055E17}"
+- ID: "bff3c925-b30b-4870-a6b3-cf97ce0a9d02"
+  Hint: TrackerCookiesCampaign
+  Value: "{F8ADE054-7D14-469A-AF89-B51D0D055E17}"
+- ID: "cf9df1f4-50c7-4e8e-914d-f11d10300ca6"
+  Hint: ScriptUrl
+  Value: /scripts/uniform.optimize.min.js
+- ID: "ede42016-6b3f-4396-b0cb-719f0581d858"
+  Hint: Page Modes
+  Type: Checklist
+  Value: "{842A8A8F-B7D2-499E-A18C-87A9C114DCFC}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200827T191901Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

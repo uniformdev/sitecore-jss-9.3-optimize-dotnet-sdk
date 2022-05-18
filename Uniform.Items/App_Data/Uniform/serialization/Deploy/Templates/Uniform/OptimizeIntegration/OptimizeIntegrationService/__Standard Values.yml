@@ -1,0 +1,18 @@
+﻿---
+ID: "87223014-b03d-4fa4-af50-d20f27d9e42d"
+Parent: "8b545579-5ee8-4b5c-a2e2-01a7645484e8"
+Template: "8b545579-5ee8-4b5c-a2e2-01a7645484e8"
+Path: /sitecore/templates/Uniform/OptimizeIntegration/OptimizeIntegrationService/__Standard Values
+DB: master
+SharedFields:
+- ID: "8e740fc6-20d8-43fd-ac47-014343ec67c5"
+  Hint: Attributes
+  Value: ref=uniform%2Fservices%2FoptimizeIntegrationService
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210528T104116Z

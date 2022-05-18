@@ -1,0 +1,14 @@
+﻿---
+ID: "3c6e8251-8fa6-432b-8028-aa73d0069edf"
+Parent: "4a2181fa-3c74-4f0d-9130-45d240b0923d"
+Template: "5e83cc80-f16e-4baa-9154-b6f887c91a0f"
+Path: /sitecore/templates/Uniform/Presets/Branches/Hosted/$name/Configuration/Deployment
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210208T152739Z

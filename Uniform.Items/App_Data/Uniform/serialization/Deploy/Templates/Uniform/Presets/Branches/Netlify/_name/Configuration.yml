@@ -1,0 +1,25 @@
+﻿---
+ID: "02dd71a3-5ed8-40c9-aa37-d2f40d8b1fe1"
+Parent: "b237d70f-49df-4dcf-979a-144ea0b816ad"
+Template: "087f266e-4fdc-42f2-ac91-bdf8444ee787"
+Path: /sitecore/templates/Uniform/Presets/Branches/Netlify/$name/Configuration
+DB: master
+SharedFields:
+- ID: "81d4ef1d-4dfc-43be-9d0f-c534217a58db"
+  Hint: Inherits
+  Value: $parentname
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210208T152657Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
