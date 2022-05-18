@@ -1,0 +1,18 @@
+﻿---
+ID: "8ffdd248-259f-446b-a0b4-c24d0ac8c19c"
+Parent: "504ae189-9f36-4c62-9767-66d73d6c3084"
+Template: "267d9ac7-5d85-4e9d-af89-99ab296cc218"
+Path: /sitecore/system/Dictionary/Uniform Optimize
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210315T164659Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,35 @@
+﻿---
+ID: "cca19a58-b9a7-41b2-b661-d7fc3e8a4a97"
+Parent: "959b1145-6351-4585-80dd-51d2e30056ce"
+Template: "959b1145-6351-4585-80dd-51d2e30056ce"
+Path: /sitecore/templates/Uniform Platform Canvas/CanvasIntegrationService/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{B0C183F7-BDB8-48AD-8B34-FFF1AC77A4F3}"
+- ID: "49f1667d-59b5-4e08-9f1a-e5326fb39154"
+  Hint: ApiHost
+  Value: "https://uniform.app"
+- ID: "67c91d22-f625-49d3-b068-3fcb8311c485"
+  Hint: Comments
+  Value: |
+    The "Default Composition" field value acts as a fallback Canvas composition when not specified in a different way. 
+    
+    [!] It is normal if "Default Composition" field shows error when other fields are empty - fill them in, save item and it will work.
+- ID: "8e740fc6-20d8-43fd-ac47-014343ec67c5"
+  Hint: Attributes
+  Value: ref=uniform%2Fservices%2FcanvasIntegrationService
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210106T221408Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

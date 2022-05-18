@@ -1,0 +1,18 @@
+﻿---
+ID: "69012c70-9858-4de6-bd80-0a8661144b84"
+Parent: "0ac3322d-90ed-44c4-b321-19b0f3e9ca25"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Settings/Rules/Definitions/Uniform Optimize/GEO Keys/fips
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/media_stop.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200227T164220Z

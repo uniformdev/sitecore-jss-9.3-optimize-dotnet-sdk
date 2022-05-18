@@ -1,0 +1,15 @@
+<configuration xmlns:set="http://www.sitecore.net/xmlconfig/set/" xmlns:patch="http://www.sitecore.net/xmlconfig/">
+  <sitecore>
+    <settings>
+      <!-- UNIFORM - LICENSE KEY
+           The setting defines the license key which needs to be obtained for free at
+           https://unfrm.io and saved in a separate newly created config file.
+           
+           Alternatively, it can be saved an app setting or a connection string, 
+           or as the UNIFORM_LICENSE_KEY environment variable 
+           (after defining environment variable iisreset is required to reflect the changes)
+      -->
+      <setting name="Uniform.LicenseKey" value="" />
+    </settings>
+  </sitecore>
+</configuration>

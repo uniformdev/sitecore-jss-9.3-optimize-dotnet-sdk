@@ -1,0 +1,22 @@
+﻿---
+ID: "f1ce527c-3879-4389-86a5-b7d871f2f16a"
+Parent: "d5369aec-edc9-474b-8bc3-6727a9d8b01f"
+Template: "d5369aec-edc9-474b-8bc3-6727a9d8b01f"
+Path: /sitecore/templates/Uniform/Deployment/Akamai/AkamaiPurgeService/__Standard Values
+DB: master
+SharedFields:
+- ID: "8e740fc6-20d8-43fd-ac47-014343ec67c5"
+  Hint: Attributes
+  Value: ref=uniform%2Fservices%2FakamaiPurgeService
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210106T221408Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

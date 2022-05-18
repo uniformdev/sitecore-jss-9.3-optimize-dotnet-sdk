@@ -1,0 +1,18 @@
+﻿---
+ID: "e4cfdff3-303e-4143-b977-d8252e178673"
+Parent: "88edfa9c-4842-4a32-864e-9779f5573eea"
+Template: "3335b799-e9ca-40a0-95c3-8f49c1f8f164"
+Path: /sitecore/system/Uniform/Modules/Optimize/Tracking/Activities/Page Events
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200813T210347Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

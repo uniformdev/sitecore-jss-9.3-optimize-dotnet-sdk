@@ -1,0 +1,14 @@
+﻿---
+ID: "f8ade054-7d14-469a-af89-b51d0d055e17"
+Parent: "4306ef3f-26f9-4042-a18a-59ae5dac51a4"
+Template: "6b408b79-85eb-41ab-8bbd-538a98b8d05d"
+Path: /sitecore/system/Uniform/Modules/Optimize/Tracking/Tracker Cookies/Cookie Durations/Visit
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210726T171322Z

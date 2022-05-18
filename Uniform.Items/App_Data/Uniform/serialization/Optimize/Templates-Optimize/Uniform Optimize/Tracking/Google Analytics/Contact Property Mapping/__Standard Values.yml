@@ -1,0 +1,18 @@
+﻿---
+ID: "7abce40e-29ff-46a8-a73b-d7392bd97d25"
+Parent: "2bad1ea2-fb97-4542-ac06-caa942d3ec51"
+Template: "2bad1ea2-fb97-4542-ac06-caa942d3ec51"
+Path: /sitecore/templates/Uniform Optimize/Tracking/Google Analytics/Contact Property Mapping/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200605T040256Z

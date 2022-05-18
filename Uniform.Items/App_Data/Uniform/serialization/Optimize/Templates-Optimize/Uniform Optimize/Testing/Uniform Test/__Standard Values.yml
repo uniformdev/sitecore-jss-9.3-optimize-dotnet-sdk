@@ -1,0 +1,18 @@
+﻿---
+ID: "8f62527e-fde6-4398-96f4-1734ba6a62c5"
+Parent: "ff8dc3a6-ac78-41c4-a780-cb2f05089216"
+Template: "ff8dc3a6-ac78-41c4-a780-cb2f05089216"
+Path: /sitecore/templates/Uniform Optimize/Testing/Uniform Test/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200408T145305Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

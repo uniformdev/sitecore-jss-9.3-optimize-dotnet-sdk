@@ -1,0 +1,281 @@
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5024CE64-8973-473F-AA53-565F1525A40D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Uniform</RootNamespace>
+    <AssemblyName>Uniform.SDK</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Akamai.EdgeGrid.Auth, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Akamai.EdgeGrid.Auth.0.0.0.1\lib\net40\Akamai.EdgeGrid.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Storage.Blob, Version=11.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Azure.Storage.Blob.11.2.3\lib\net452\Microsoft.Azure.Storage.Blob.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Storage.Common, Version=11.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Azure.Storage.Common.11.2.3\lib\net452\Microsoft.Azure.Storage.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="Akamai.NetStorageKit, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Akamai.NetStorageKit.1.0.0\lib\Akamai.NetStorageKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Abstractions, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Abstractions.7.0.220504-2\lib\net462\Uniform.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Content.Sitecore, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Content.Sitecore.7.0.220504-2\lib\net462\Uniform.Content.Sitecore.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Content.Sitecore.MvcSupport, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Content.Sitecore.MvcSupport.7.0.220504-2\lib\net462\Uniform.Content.Sitecore.MvcSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.ContentSync.AzureBlob, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.ContentSync.AzureBlob.7.0.220504-2\lib\net462\Uniform.ContentSync.AzureBlob.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.ContentSync.AkamaiNetStorage, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.ContentSync.AkamaiNetStorage.7.0.220504-2\lib\net462\Uniform.ContentSync.AkamaiNetStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.ContentSync.Core, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.ContentSync.Core.7.0.220504-2\lib\net462\Uniform.ContentSync.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.ContentSync.InitialSync, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.ContentSync.InitialSync.7.0.220504-2\lib\net462\Uniform.ContentSync.InitialSync.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Deployment.Core, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Deployment.Core.7.0.220504-2\lib\net462\Uniform.Deployment.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Deployment.HostedService, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Deployment.HostedService.7.0.220504-2\lib\net462\Uniform.Deployment.HostedService.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Deployment.Incremental, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Deployment.Incremental.7.0.220504-2\lib\net462\Uniform.Deployment.Incremental.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.PurgeCache.Core, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.PurgeCache.Core.7.0.220504-2\lib\net462\Uniform.PurgeCache.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.PurgeCache.Akamai, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.PurgeCache.Akamai.7.0.220504-2\lib\net462\Uniform.PurgeCache.Akamai.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.PurgeCache.Cloudflare, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.PurgeCache.Cloudflare.7.0.220504-2\lib\net462\Uniform.PurgeCache.Cloudflare.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Deployment.Netlify, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Deployment.Netlify.7.0.220504-2\lib\net462\Uniform.Deployment.Netlify.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.ItemBasedConfiguration, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.ItemBasedConfiguration.7.0.220504-2\lib\net462\Uniform.ItemBasedConfiguration.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Licensing, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Licensing.7.0.220504-2\lib\net45\Uniform.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Licensing.Sitecore, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Licensing.Sitecore.7.0.220504-2\lib\net452\Uniform.Licensing.Sitecore.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Preview.Core, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Preview.Core.7.0.220504-2\lib\net462\Uniform.Preview.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Sitecore.Admin, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Sitecore.Admin.7.0.220504-2\lib\net462\Uniform.Sitecore.Admin.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Optimize.Core, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Optimize.Core.7.0.220504-2\lib\net462\Uniform.Optimize.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Optimize.MvcSupport, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Optimize.MvcSupport.7.0.220504-2\lib\net462\Uniform.Optimize.MvcSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Optimize.Personalization, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Optimize.Personalization.7.0.220504-2\lib\net462\Uniform.Optimize.Personalization.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Optimize.Personalization.Rules, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Optimize.Personalization.Rules.7.0.220504-2\lib\net462\Uniform.Optimize.Personalization.Rules.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Optimize.Personalization.Esi.Core, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Optimize.Personalization.Esi.Core.7.0.220504-2\lib\net472\Uniform.Optimize.Personalization.Esi.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Optimize.Personalization.Esi.Mvc, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Optimize.Personalization.Esi.Mvc.7.0.220504-2\lib\net472\Uniform.Optimize.Personalization.Esi.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Optimize.Personalization.Esi.OracleDmp, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Optimize.Personalization.Esi.OracleDmp.7.0.220504-2\lib\net472\Uniform.Optimize.Personalization.Esi.OracleDmp.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Optimize.Personalization.Esi.Rules, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Optimize.Personalization.Esi.Rules.7.0.220504-2\lib\net472\Uniform.Optimize.Personalization.Esi.Rules.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Optimize.Tracking, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Optimize.Tracking.7.0.220504-2\lib\net472\Uniform.Optimize.Tracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Optimize.Tracking.GoogleAnalytics, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Optimize.Tracking.GoogleAnalytics.7.0.220504-2\lib\net472\Uniform.Optimize.Tracking.GoogleAnalytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Optimize.Tracking.OracleDmp, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Optimize.Tracking.OracleDmp.7.0.220504-2\lib\net472\Uniform.Optimize.Tracking.OracleDmp.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Optimize.Tracking.SitecoreXdb, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Optimize.Tracking.SitecoreXdb.7.0.220504-2\lib\net472\Uniform.Optimize.Tracking.SitecoreXdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Platform.Canvas, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Platform.Canvas.7.0.220504-2\lib\net462\Uniform.Platform.Canvas.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Platform.Canvas.Migration, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Platform.Canvas.Migration.7.0.220504-2\lib\net462\Uniform.Platform.Canvas.Migration.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Platform.Canvas.ModelBuilder, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Platform.Canvas.ModelBuilder.7.0.220504-2\lib\net462\Uniform.Platform.Canvas.ModelBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniform.Platform.Canvas.SSC, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Platform.Canvas.SSC.7.0.220504-2\lib\net462\Uniform.Platform.Canvas.SSC.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Web.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="App_Config\Include\Uniform\Uniform.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.OptimizeIntegration.ItemBasedConfiguration.config" />
+    <Content Include="App_Config\Include\zzz_Uniform\Uniform.API.Token.config.example" />
+    <Content Include="App_Config\Include\zzz_Uniform\Uniform.LicenseKey.config.example" />
+    <Content Include="sitecore\Copyrights\Cryptolens.Licensing.txt" />
+    <Content Include="sitecore\shell\Themes\Standard\Uniform.zip" />
+    <Content Include="App_Config\Include\Uniform\Uniform.MvcSupport.config" />
+    <Content Include="App_Config\Include\zzz_Uniform\Uniform.MvcSupport.LegacyHtmlService.config.disabled" />
+    <Content Include="App_Config\Include\Uniform\Uniform.ContentSync.AzureBlob.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.ContentSync.AzureBlob.ItemBasedConfiguration.config" />
+    <Content Include="sitecore\Copyrights\Microsoft.Azure.Storage.Blob_MIT.txt" />
+    <Content Include="sitecore\Copyrights\Microsoft.Azure.Storage.Common_MIT.txt" />
+    <Content Include="App_Config\Include\Uniform\Uniform.ContentSync.AkamaiNetStorage.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.ContentSync.AkamaiNetStorage.ItemBasedConfiguration.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.ContentSync.Core.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.ContentSync.Media.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.ContentSync.Prefetch.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.ContentSync.InitialSync.config" />
+    <Content Include="sitecore\Admin\Uniform\ContentSync.aspx" />
+    <Content Include="App_Config\Include\Uniform\Uniform.Deployment.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.Deployment.Core.ItemBasedConfiguration.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.Deployment.FullDeploymentScope.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.Deployment.LinkProvider.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.Deployment.PublishTrigger.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.Deployment.PublishTrigger.PublishingService.config.disabled" />
+    <Content Include="App_Config\Include\Uniform\Uniform.Deployment.HostedService.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.Deployment.HostedService.ItemBasedConfiguration.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.Deployment.Incremental.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.Deployment.Incremental.ItemBasedConfiguration.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.Deployment.Warnings.config.disabled" />
+    <Content Include="App_Config\Include\Uniform\Uniform.Deployment.PurgeCache.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.PurgeCache.Akamai.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.PurgeCache.Akamai.ItemBasedConfiguration.config" />
+    <Content Include="sitecore\Copyrights\Akamai.EdgeGrid.Auth_Apache.txt" />
+    <Content Include="App_Config\Include\Uniform\Uniform.PurgeCache.Cloudflare.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.PurgeCache.Cloudflare.ItemBasedConfiguration.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.Deployment.Netlify.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.Deployment.Netlify.ItemBasedConfiguration.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.ItemBasedConfiguration.config" />
+    <Content Include="sitecore\Copyrights\Cryptolens.Licensing.txt" />
+    <Content Include="App_Config\Include\Uniform\Uniform.Preview.config" />
+    <Content Include="App_Config\Include\Uniform\Uniform.Preview.ItemBasedConfiguration.config" />
+    <Content Include="sitecore\Admin\uniform\dist\axios.min.js" />
+    <Content Include="sitecore\Admin\uniform\dist\favicon.png" />
+    <Content Include="sitecore\Admin\uniform\dist\styles.css" />
+    <Content Include="sitecore\Admin\uniform\dist\tailwind.min.css" />
+    <Content Include="sitecore\Admin\uniform\dist\vue.min.js" />
+    <Content Include="sitecore\Admin\uniform\Default.aspx" />
+    <Content Include="App_Config\Include\Uniform.Optimize\Uniform.Optimize.config" />
+    <Content Include="App_Config\Include\Uniform.Optimize\Uniform.Optimize.Deployment.config" />
+    <Content Include="App_Config\Include\Uniform.Optimize\Uniform.Optimize.MvcSupport.config" />
+    <Content Include="App_Config\Include\Uniform.Optimize.Personalization\Uniform.Optimize.Personalization.config" />
+    <Content Include="App_Config\Include\Uniform.Optimize.Personalization\Uniform.Optimize.Personalization.Rules.config" />
+    <Content Include="App_Config\Include\Uniform.Optimize.Personalization\Uniform.Optimize.Personalization.Esi.Core.config" />
+    <Content Include="App_Config\Include\Uniform.Optimize.Personalization\Uniform.Optimize.Personalization.Esi.Mvc.config" />
+    <Content Include="App_Config\Include\Uniform.Optimize.Personalization\Uniform.Optimize.Personalization.Esi.OracleDmp.CM.config" />
+    <Content Include="App_Config\Include\Uniform.Optimize.Personalization\Uniform.Optimize.Personalization.Esi.OracleDmp.config" />
+    <Content Include="App_Config\Include\Uniform.Optimize.Personalization\Uniform.Optimize.Personalization.Esi.Rules.CM.config" />
+    <Content Include="App_Config\Include\Uniform.Optimize.Personalization\Uniform.Optimize.Personalization.Esi.Rules.config" />
+    <Content Include="sitecore\admin\uniform\esi\default.aspx" />
+    <Content Include="App_Config\Include\Uniform.Optimize.Tracking\Uniform.Optimize.Tracking.config" />
+    <Content Include="App_Config\Include\Uniform.Optimize.Tracking\Uniform.Optimize.Tracking.GoogleAnalytics.config" />
+    <Content Include="App_Config\Include\Uniform.Optimize.Tracking\Uniform.Optimize.Tracking.OracleDmp.config" />
+    <Content Include="App_Config\Include\Uniform.Optimize.Tracking\Uniform.Optimize.Tracking.SitecoreXdb.config" />
+    <Content Include="App_Config\Include\zzz_Uniform.Optimize\MySite.Uniform.Optimize.Tracking.SitecoreXdb.History.config.example" />
+    <Content Include="App_Config\Include\Uniform.Platform.Canvas\Uniform.Platform.Canvas.config" />
+    <Content Include="App_Config\Include\Uniform.Platform.Canvas\Uniform.Platform.Canvas.ItemBasedConfiguration.config" />
+    <Content Include="App_Config\Include\Uniform.Platform.Canvas\Uniform.Platform.Canvas.Migration.config" />
+    <Content Include="sitecore\admin\uniform\canvas\migration\components\default.aspx" />
+    <Content Include="sitecore\admin\uniform\canvas\migration\compositions\default.aspx" />
+    <Content Include="App_Config\Include\Uniform.Platform.Canvas\Uniform.Platform.Canvas.ModelBuilder.config" />
+    <Content Include="App_Config\Include\Uniform.Platform.Canvas\Uniform.Platform.Canvas.SSC.config" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54444</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:54444/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

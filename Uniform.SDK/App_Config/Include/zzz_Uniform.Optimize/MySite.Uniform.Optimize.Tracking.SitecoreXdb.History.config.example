@@ -1,0 +1,40 @@
+﻿<configuration xmlns:set="http://www.sitecore.net/xmlconfig/set/" xmlns:patch="http://www.sitecore.net/xmlconfig/" xmlns:role="http://www.sitecore.net/xmlconfig/role/">
+  <!--
+    This file enables a service that uses the xConnect client dlls.
+    These dlls are not available on XM CD instances. As a result,
+    this file should only be enabled on XP CD instances.
+  -->
+  <sitecore role:require="ContentDelivery or Standalone">
+    <uniform>
+      <xdb>
+        <activity type="Uniform.Optimize.Filters.HistoricalDataSettings, Uniform.Optimize.Tracking.SitecoreXdb" singleInstance="true">
+          <filters hint="raw:AddFilter">
+            <default>
+              <sites>
+                <site name="*" />
+              </sites>
+              <campaigns>
+                <campaigns2020 start="2020" startFormat="yyyy" end="2021" endFormat="yyyy">
+                  <testCampaign>{37E77A87-FC67-4F42-8464-D652E1BED29D}</testCampaign>
+                </campaigns2020>
+              </campaigns>
+              <events>
+                <goals2020 start="2020" startFormat="yyyy" end="2021" endFormat="yyyy">
+                  <brochuresRequest>{968897F1-328A-489D-88E8-BE78F4370958}</brochuresRequest>
+                  <register>{8FFB183B-DA1A-4C74-8F3A-9729E9FCFF6A}</register>
+                </goals2020>
+              </events>
+              <pageViews>
+                <year2019 start="2019" startFormat="yyyy" end="2020" endFormat="yyyy" />
+                <year2020 start="2020" startFormat="yyyy" end="2021" endFormat="yyyy">
+                  <product type="template">{EE6EDD24-741F-4108-9B1A-3394B3F8674D}</product>
+                  <discountQ1 type="item">{B64C4CA2-0382-44A4-B43B-02080289F053}</discountQ1>
+                </year2020>
+              </pageViews>
+            </default>
+          </filters>
+        </activity>
+      </xdb>
+    </uniform>
+  </sitecore>
+</configuration>

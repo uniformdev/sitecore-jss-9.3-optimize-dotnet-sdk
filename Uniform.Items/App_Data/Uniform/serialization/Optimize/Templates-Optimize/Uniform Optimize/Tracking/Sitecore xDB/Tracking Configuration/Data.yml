@@ -1,0 +1,18 @@
+﻿---
+ID: "79d8565b-f5af-40c2-9fb9-b974ee5c4379"
+Parent: "3281b003-10b7-4d67-a078-fe3e7015975d"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Uniform Optimize/Tracking/Sitecore xDB/Tracking Configuration/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200922T021941Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

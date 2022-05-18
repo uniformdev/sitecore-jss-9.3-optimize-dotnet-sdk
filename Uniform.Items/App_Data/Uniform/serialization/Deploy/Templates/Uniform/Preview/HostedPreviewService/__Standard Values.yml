@@ -1,0 +1,22 @@
+﻿---
+ID: "8df6fbc7-4b2b-43d6-b9ac-94873dbe5d0b"
+Parent: "0b0facc7-d572-4b4c-b537-a0d147d861ed"
+Template: "0b0facc7-d572-4b4c-b537-a0d147d861ed"
+Path: /sitecore/templates/Uniform/Preview/HostedPreviewService/__Standard Values
+DB: master
+SharedFields:
+- ID: "8e740fc6-20d8-43fd-ac47-014343ec67c5"
+  Hint: Attributes
+  Value: ref=uniform%2Fservices%2FhostedPreviewService
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210106T215441Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

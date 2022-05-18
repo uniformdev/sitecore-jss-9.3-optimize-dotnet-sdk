@@ -1,0 +1,18 @@
+﻿---
+ID: "bc02fb48-c9ac-4bcf-bdf4-520f8579eafe"
+Parent: "211b57ed-f0e2-4458-bfaf-dfa3e6ac6ab5"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Uniform/Deployment/Cloudflare/CloudflarePurgeService/Configuration
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210106T110108Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

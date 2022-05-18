@@ -1,0 +1,18 @@
+﻿---
+ID: "4d79e2f0-64ef-48be-9623-9031b570b8ad"
+Parent: "f222940d-920d-476a-be82-cc950449dc3a"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Settings/Rules/Definitions/Uniform Optimize
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: uniform/32x32/logo.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T162620Z

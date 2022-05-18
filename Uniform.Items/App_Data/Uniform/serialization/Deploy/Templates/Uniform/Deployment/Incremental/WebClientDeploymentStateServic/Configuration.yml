@@ -1,0 +1,18 @@
+﻿---
+ID: "ff9dd760-1178-4b56-a5ad-36124cd1aa02"
+Parent: "86ab8bd4-1c74-4668-84d6-d24988e095ca"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Uniform/Deployment/Incremental/WebClientDeploymentStateService/Configuration
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210106T110108Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

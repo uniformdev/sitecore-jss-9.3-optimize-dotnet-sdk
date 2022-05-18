@@ -1,0 +1,42 @@
+<!-- 
+    UNIFORM
+    This file is a part of Uniform distribution package
+
+    IMPORTANT! Do not modify this file because all changes will be lost during further upgrade:
+    Use patch files instead: https://doc.sitecore.com/developers/90/platform-administration-and-architecture/en/use-a-patch-file-to-customize-the-sitecore-configuration.html
+-->
+
+<configuration xmlns:set="http://www.sitecore.net/xmlconfig/set/" xmlns:patch="http://www.sitecore.net/xmlconfig/" xmlns:role="http://www.sitecore.net/xmlconfig/role/">
+    <sitecore role:require="ContentManagement or Standalone">
+
+        <processors>
+            
+            <saveUI>
+                <processor patch:before="processor[@type='Sitecore.Pipelines.Save.Save, Sitecore.Kernel']" type="Uniform.Pipelines.SaveUI.CheckDependencies, Uniform.Deployment.Incremental">
+                    <message>Current changes to this item may require full site redeploy during next deployment. Proceed?</message>
+                </processor>
+            </saveUI>
+            <uiMoveItems>
+                <processor patch:before="processor[@method='Execute']" type="Uniform.Pipelines.UiMoveItems.CheckDependencies, Uniform.Deployment.Incremental">
+                    <message>Moving this item may require full site redeploy during next deployment. Proceed?</message>
+                </processor>
+            </uiMoveItems>
+            <uiDragItemTo>
+                <processor patch:before="processor[@method='Execute']" type="Uniform.Pipelines.UiDragItemTo.CheckDependencies, Uniform.Deployment.Incremental">
+                    <message>Moving this item may require full site redeploy during next deployment. Proceed?</message>
+                </processor>
+            </uiDragItemTo>
+            <uiRenamePage>
+                <processor patch:before="processor[@method='Execute']" type="Uniform.Pipelines.UiRenameItem.CheckDependencies, Uniform.Deployment.Incremental">
+                    <message>Renaming this page may require full site redeploy during next deployment. Proceed?</message>
+                </processor>
+            </uiRenamePage>
+            <uiRenameItem>
+                <processor patch:before="processor[@method='Execute']" type="Uniform.Pipelines.UiRenameItem.CheckDependencies, Uniform.Deployment.Incremental">
+                    <message>Renaming this item may require full site redeploy during next deployment. Proceed?</message>
+                </processor>
+            </uiRenameItem>
+        </processors>
+
+    </sitecore>
+</configuration>

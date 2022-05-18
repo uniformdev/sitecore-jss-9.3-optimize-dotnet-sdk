@@ -1,0 +1,18 @@
+﻿---
+ID: "5f321cd6-7575-42a1-9628-616e52407512"
+Parent: "acd38c93-e201-4aca-954c-d8b6f57cdd3d"
+Template: "a50fd533-8b21-4da8-8708-d6401cfebb78"
+Path: /sitecore/system/Uniform/Modules/Optimize/Tracking/Logging Levels/Warn
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210204T180602Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

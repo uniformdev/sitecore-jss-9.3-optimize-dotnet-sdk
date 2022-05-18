@@ -1,0 +1,18 @@
+﻿---
+ID: "a472997a-2442-4143-b48f-af5dab8c3d49"
+Parent: "69b94489-0c3f-4855-9e82-5da99f1fd034"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Settings/Rules/Definitions/Uniform Optimize/String Or Number Operators/string is equal to
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/media_stop.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T144656Z

@@ -1,0 +1,18 @@
+﻿---
+ID: "fd281e9b-2733-40f2-bfc8-738d2644d23d"
+Parent: "6b408b79-85eb-41ab-8bbd-538a98b8d05d"
+Template: "6b408b79-85eb-41ab-8bbd-538a98b8d05d"
+Path: /sitecore/templates/Uniform Optimize/Tracking/Tracker Cookie Duration/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210725T193536Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

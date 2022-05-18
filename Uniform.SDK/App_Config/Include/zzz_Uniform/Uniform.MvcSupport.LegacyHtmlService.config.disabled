@@ -1,0 +1,41 @@
+<!-- 
+    UNIFORM
+    This file is a part of Uniform distribution package
+
+    IMPORTANT! Do not modify this file because all changes will be lost during further upgrade:
+    Use patch files instead: https://doc.sitecore.com/developers/90/platform-administration-and-architecture/en/use-a-patch-file-to-customize-the-sitecore-configuration.html
+-->
+
+<configuration xmlns:set="http://www.sitecore.net/xmlconfig/set/" xmlns:patch="http://www.sitecore.net/xmlconfig/">
+    <sitecore>
+        <pipelines>
+            <initialize>
+                <processor type="Uniform.Pipelines.Initialize.InitializeRenderMvcRoute, Uniform.Content.Sitecore.MvcSupport"
+                           patch:before="*[@type='Uniform.Pipelines.Initialize.InitializeMvcRoutes, Uniform.Content.Sitecore']" />
+            </initialize>
+
+            <mvc.renderRendering>
+                <processor type="Uniform.Pipelines.Mvc.RenderRendering.RenderUniformMarkerBegin, Uniform.Content.Sitecore.MvcSupport">
+                    <patch:delete />
+                </processor>
+                <processor type="Uniform.Pipelines.Mvc.RenderRendering.RenderUniformMarkerEnd, Uniform.Content.Sitecore.MvcSupport">
+                    <patch:delete />
+                </processor>
+            </mvc.renderRendering>
+        </pipelines>
+
+        <uniform>
+            <services>
+                <htmlService set:ref="uniform/services/legacyHtmlService"/>
+                <legacyHtmlService type="Uniform.Services.HtmlService, Uniform.Content.Sitecore.MvcSupport">
+                    <param ref="uniform/services/renderingNodeService" desc="renderingNodeService"/>
+                    <param desc="concurrentRenderPageComponents">false</param>
+                </legacyHtmlService>
+            </services>
+        </uniform>
+
+        <settings>
+            <setting name="Uniform.MvcSupport.SkipBrokenRenderings" value="false" />
+        </settings>
+    </sitecore>
+</configuration>

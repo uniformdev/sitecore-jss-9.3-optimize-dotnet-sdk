@@ -1,0 +1,616 @@
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0A6E6C32-7D77-4184-8A55-08CFDF6CFE8F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Uniform</RootNamespace>
+    <AssemblyName>Uniform.Items</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\zzz_Uniform_Unicorn\uniformContentSitecoreSourceFolder.config" />
+    <None Include="packages.config" />
+    <None Include="Web.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="App_Config\Include\zzz_Uniform_Unicorn\Uniform.Unicorn.config" />
+    <Content Include="App_Config\Include\zzz_Uniform_Unicorn\Uniform.Unicorn.Optimize.config" />
+    <Content Include="App_Config\Include\zzz_Uniform_Unicorn\Uniform.Unicorn.Optimize.Esi.config" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-Administration\Uniform\Check Page Data.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-Administration\Uniform\Initial Content Sync.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-Administration\Uniform\Re-Sync Page.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-Administration\Uniform\Re-Sync Tree.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-Administration\Uniform\Schedule Redeploy.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-Administration\Uniform.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-CDN\Uniform CDN\Purge Page.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-CDN\Uniform CDN\Purge Site.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-CDN\Uniform CDN\Purge Tree.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-CDN\Uniform CDN.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\ContentEditor-Editors\Uniform\Initial Content Sync.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\ContentEditor-Editors\Uniform.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Layouts\Uniform\Uniform Fake Layout.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Layouts\Uniform.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Module\Uniform\Modules.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Module\Uniform\SiteConfigurations.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Module\Uniform.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Modules-Purge\Purge\Akamai\Methods\delete.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Modules-Purge\Purge\Akamai\Methods\invalidate.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Modules-Purge\Purge\Akamai\Networks\production.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Modules-Purge\Purge\Akamai\Networks\staging.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Modules-Purge\Purge\Akamai\Methods.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Modules-Purge\Purge\Akamai\Networks.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Modules-Purge\Purge\Akamai.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Modules-Purge\Purge.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Renderings\Uniform.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Ribbons-Default\Uniform.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Strips-Uniform\Uniform\Administration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Strips-Uniform\Uniform\CDN.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Strips-Uniform\Uniform.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStorageContentSyncSer\Configuration\ApiHostname.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStorageContentSyncSer\Configuration\ApiKey.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStorageContentSyncSer\Configuration\CpCode.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStorageContentSyncSer\Configuration\Hostname.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStorageContentSyncSer\Configuration\UploadAccountId.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStorageContentSyncSer\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStorageContentSyncSer\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStorageMediaContentSy\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStoragePageContentSyn\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\Branches\AttachAkamaiNetStorageMediaCon.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\Branches\AttachAkamaiNetStoragePageCont.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStorageContentSyncSer.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStorageMediaContentSy.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStoragePageContentSyn.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobContentSyncService\Configuration\ConnectionString.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobContentSyncService\Configuration\ContainerName.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobContentSyncService\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobContentSyncService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobMediaContentSyncServi\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobPageContentSyncServic\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\Branches\AttachAzureBlobMediaContentSyn.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\Branches\AttachAzureBlobPageContentSync.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobContentSyncService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobMediaContentSyncServi.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobPageContentSyncServic.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Commands\Initial Sync.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Content Sync Operation Status\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Site Operation Status\Operation Status\finishedDatetime.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Site Operation Status\Operation Status\startedBy.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Site Operation Status\Operation Status\startedDatetime.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Site Operation Status\Operation Status\success.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Site Operation Status\Operation Status.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Commands.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Content Sync Operation Status.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Site Operation Status.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\JavaScript Rendering\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\Renderings Folder\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\SiteConfiguration\System\Comments.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\SiteConfiguration\System\Full Deployment Requested.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\SiteConfiguration\System.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\SiteConfiguration\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\JavaScript Rendering.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\Renderings Folder.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\SiteConfiguration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService\Configuration\AccessToken.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService\Configuration\ApiUrl.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService\Configuration\ClientToken.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService\Configuration\CpCodes.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService\Configuration\HostNames.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService\Configuration\Method.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService\Configuration\Network.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService\Configuration\Secret.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\Branches\AttachAkamaiPurgeService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare\Branches\AttachCloudflarePurgeService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare\CloudflarePurgeService\Configuration\ApiToken.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare\CloudflarePurgeService\Configuration\ChangedItemsCount.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare\CloudflarePurgeService\Configuration\HostNames.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare\CloudflarePurgeService\Configuration\RetriesCount.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare\CloudflarePurgeService\Configuration\ZoneId.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare\CloudflarePurgeService\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare\CloudflarePurgeService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare\CloudflarePurgeService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Core\Branches\AttachMediaDeploymentScopeServ.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Core\Branches\AttachNopDeploymentService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Core\MediaDeploymentScopeService\Configuration\MediaRoots.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Core\MediaDeploymentScopeService\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Core\MediaDeploymentScopeService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Core\NopDeploymentService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Core\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Core\MediaDeploymentScopeService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Core\NopDeploymentService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\HostedService\Branches\AttachHostedDeploymentService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\HostedService\HostedDeploymentService\Configuration\EnvironmentVariables.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\HostedService\HostedDeploymentService\Configuration\ServiceUrl.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\HostedService\HostedDeploymentService\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\HostedService\HostedDeploymentService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\HostedService\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\HostedService\HostedDeploymentService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Incremental\Branches\AttachWebClientDeploymentState.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Incremental\Branches\Schedule Full Deployment.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Incremental\WebClientDeploymentStateServic\Configuration\PublicUrl.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Incremental\WebClientDeploymentStateServic\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Incremental\WebClientDeploymentStateServic\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Incremental\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Incremental\WebClientDeploymentStateServic.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Netlify\Branches\AttachNetlifyDeploymentService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Netlify\NetlifyDeploymentService\Configuration\ExternalSiteId.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Netlify\NetlifyDeploymentService\Configuration\FireAndForget.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Netlify\NetlifyDeploymentService\Configuration\NetlifyAccessToken.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Netlify\NetlifyDeploymentService\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Netlify\NetlifyDeploymentService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Netlify\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Netlify\NetlifyDeploymentService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Core.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\HostedService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Incremental.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Netlify.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\AttachableService\System\Attributes.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\AttachableService\System\Comments.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\AttachableService\System\Enabled.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\AttachableService\System.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\AttachableService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\AttachableServicesFolder\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\Configuration\Configuration\Attributes.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\Configuration\Configuration\Database.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\Configuration\Configuration\Device.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\Configuration\Configuration\FetchHost.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\Configuration\Configuration\Inherits.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\Configuration\Configuration\Language.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\Configuration\Configuration\TimestampFileName.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\Configuration\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\AttachableService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\AttachableServicesFolder.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\NewConfiguration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\OptimizeIntegration\Branches\AttachOptimizeIntegrationServi.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\OptimizeIntegration\OptimizeIntegrationService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\OptimizeIntegration\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\OptimizeIntegration\OptimizeIntegrationService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Hosted\_name\Configuration\Deployment\DeploymentService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Hosted\_name\Configuration\ContentSync.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Hosted\_name\Configuration\Deployment.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Hosted\_name\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Hosted\_name\Content Sync History.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Hosted\_name.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Netlify\_name\Configuration\Deployment\DeploymentService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Netlify\_name\Configuration\ContentSync.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Netlify\_name\Configuration\Deployment.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Netlify\_name\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Netlify\_name\Content Sync History.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Netlify\_name.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\SiteContext\_name\Configuration\ContentSync.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\SiteContext\_name\Configuration\Deployment.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\SiteContext\_name\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\SiteContext\_name\Content Sync History.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\SiteContext\_name.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Hosted.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Netlify.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\SiteContext.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Preview\Branches\AttachHostedPreviewService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Preview\HostedPreviewService\Configuration\ServiceUrl.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Preview\HostedPreviewService\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Preview\HostedPreviewService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Preview\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Preview\HostedPreviewService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Item\Uniform\LastSuccessfulDeployment.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Item\Uniform\PublicUrl.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Item\Uniform.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Item\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\OptimizeIntegration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Preview.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Item.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Chunks-Uniform-Optimize\Uniform Optimize\Personalization Audit.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Chunks-Uniform-Optimize\Uniform Optimize.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Dictionary-Uniform-Optimize\Uniform Optimize\Item refresh command added cou.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Dictionary-Uniform-Optimize\Uniform Optimize\Item refresh command already e.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Dictionary-Uniform-Optimize\Uniform Optimize\Item refresh command deleted c.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Dictionary-Uniform-Optimize\Uniform Optimize\Item refresh command failed me.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Dictionary-Uniform-Optimize\Uniform Optimize\Item refresh command header.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Dictionary-Uniform-Optimize\Uniform Optimize\Item refresh command ignored c.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Dictionary-Uniform-Optimize\Uniform Optimize\Item refresh command summary h.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Dictionary-Uniform-Optimize\Uniform Optimize\Item refresh command summary m.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Dictionary-Uniform-Optimize\Uniform Optimize\Personalization audit confirma.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Dictionary-Uniform-Optimize\Uniform Optimize\Personalization audit confirma_b4121fd2-565c-4faa-ab45-d800d5f80beb.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Dictionary-Uniform-Optimize\Uniform Optimize\Personalization audit failed h.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Dictionary-Uniform-Optimize\Uniform Optimize\Personalization audit no resul.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Dictionary-Uniform-Optimize\Uniform Optimize\Personalization audit tooltip_.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Dictionary-Uniform-Optimize\Uniform Optimize\Personalization audit tooltip__91507f93-3d3b-4307-a1ca-d60c9627d7b4.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Dictionary-Uniform-Optimize\Uniform Optimize.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Personalization\Emitters\Default.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Personalization\Page Modes\Experience Editor.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Personalization\Page Modes\Normal.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Personalization\Page Modes\Preview.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Personalization\Emitters.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Personalization\Page Modes.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Testing\Sample Sizes\10.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Testing\Sample Sizes\15.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Testing\Sample Sizes\5.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Testing\Sample Sizes.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Testing\Tests.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Activities\Campaigns.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Activities\Goals.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Activities\Page Events.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Activities\Page Views.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Activities\Personalization.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Activities\Profile Scoring.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Contact Properties\Contact Id.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Destinations\Google Analytics\Custom Dimension Mappings.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Destinations\Google Analytics\Properties.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Destinations\Google Analytics\Tracking Configurations.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Destinations\Oracle DMP\Campaign Properties\Audience Id.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Destinations\Oracle DMP\Campaign Properties\Campaign Id.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Destinations\Oracle DMP\Campaign Properties.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Destinations\Oracle DMP\Containers.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Destinations\Oracle DMP\Tracking Configurations.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Destinations\Sitecore xDB\Tracking Configurations.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Destinations\Google Analytics.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Destinations\Oracle DMP.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Destinations\Sitecore xDB.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Logging Levels\Audit.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Logging Levels\Debug.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Logging Levels\Error.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Logging Levels\Info.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Logging Levels\Warn.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Tracker Cookies\Cookie Durations\Visit.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Tracker Cookies\Cookie Durations\Visitor.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Tracker Cookies\Cookie Types\Campaign.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Tracker Cookies\Cookie Types\Campaigns.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Tracker Cookies\Cookie Types\Goals.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Tracker Cookies\Cookie Types\Pattern Matches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Tracker Cookies\Cookie Types\Profile Scores.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Tracker Cookies\Throttling Cutoff Criteria\Highest value first.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Tracker Cookies\Throttling Cutoff Criteria\Lowest value first.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Tracker Cookies\Throttling Cutoff Criteria\Newest first.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Tracker Cookies\Throttling Cutoff Criteria\Oldest first.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Tracker Cookies\Cookie Configurations.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Tracker Cookies\Cookie Durations.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Tracker Cookies\Cookie Types.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Tracker Cookies\Throttled Cookies.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Tracker Cookies\Throttling Cutoff Criteria.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Activities.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Contact Properties.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Destinations.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Logging Levels.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking\Tracker Cookies.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Personalization.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Settings.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Testing.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize\Tracking.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Module\Optimize.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\Elapsed Time Operators\at least.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\Elapsed Time Operators\at most.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\Elapsed Time Operators\exactly.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\Elapsed Time Operators\fewer than.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\Elapsed Time Operators\more than.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\GEO Keys\areacode.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\GEO Keys\asnum.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\GEO Keys\city.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\GEO Keys\continent.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\GEO Keys\country.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\GEO Keys\country_code.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\GEO Keys\dma.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\GEO Keys\fips.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\GEO Keys\lat.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\GEO Keys\long.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\GEO Keys\msa.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\GEO Keys\network.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\GEO Keys\network_type.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\GEO Keys\pmsa.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\GEO Keys\region_code.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\GEO Keys\throughput.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\GEO Keys\timezone.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\GEO Keys\zip.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\String Or Number Operators\number is equal to.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\String Or Number Operators\number is greater than or equa.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\String Or Number Operators\number is greater than.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\String Or Number Operators\number is less than or equal t.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\String Or Number Operators\number is less than.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\String Or Number Operators\number is not equal to.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\String Or Number Operators\string case-insensitively cont.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\String Or Number Operators\string contains.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\String Or Number Operators\string ends with.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\String Or Number Operators\string is case-insensitively e.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\String Or Number Operators\string is equal to.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\String Or Number Operators\string is not case-insensitive.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\String Or Number Operators\string is not equal to.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\String Or Number Operators\string matches regular express.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\String Or Number Operators\string starts with.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\Elapsed Time Operators.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\GEO Keys.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize\String Or Number Operators.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Definitions\Uniform Optimize.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Device\Uniform - Device\Tags\Default.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Device\Uniform - Device\Browser Condition.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Device\Uniform - Device\Device Brand.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Device\Uniform - Device\Device Is Desktop.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Device\Uniform - Device\Device Is Mobile.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Device\Uniform - Device\Device Is Tablet.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Device\Uniform - Device\Device Operating System.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Device\Uniform - Device\Tags.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Device\Uniform - Device\Visibility.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Device\Uniform - Device.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Geo\Uniform - Geo\Tags\Default.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Geo\Uniform - Geo\Geo City.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Geo\Uniform - Geo\Geo Country Code.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Geo\Uniform - Geo\Geo Region Code.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Geo\Uniform - Geo\Geo Zip.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Geo\Uniform - Geo\Tags.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Geo\Uniform - Geo\Visibility.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Geo\Uniform - Geo.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-OracleDmp\Uniform - Oracle DMP\Tags\Default.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-OracleDmp\Uniform - Oracle DMP\Oracle DMP Audience Member Con.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-OracleDmp\Uniform - Oracle DMP\Oracle DMP Campaign Member Con.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-OracleDmp\Uniform - Oracle DMP\Tags.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-OracleDmp\Uniform - Oracle DMP\Visibility.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-OracleDmp\Uniform - Oracle DMP.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Request\Uniform - Request\Tags\Default.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Request\Uniform - Request\Cookie Condition.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Request\Uniform - Request\Has Cookie Condition.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Request\Uniform - Request\Has Http Header Condition.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Request\Uniform - Request\Has Query String Condition.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Request\Uniform - Request\Http Header Condition.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Request\Uniform - Request\Http Header List Condition.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Request\Uniform - Request\Query String Condition.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Request\Uniform - Request\Tags.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Request\Uniform - Request\Visibility.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Request\Uniform - Request.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Visit\Uniform - Visit\Tags\Default.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Visit\Uniform - Visit\Goal was Triggered.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Visit\Uniform - Visit\Goal with Custom Data was Trig.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Visit\Uniform - Visit\Page Event was Triggered.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Visit\Uniform - Visit\Page Event with Custom Data wa.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Visit\Uniform - Visit\Tags.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Visit\Uniform - Visit\Visibility.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Elements-Visit\Uniform - Visit.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Macros-OracleDmp-Audience\OracleDmpAudience.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Macros-OracleDmp-Campaign\OracleDmpCampaign.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Macros-Uniform-Input\UniformInput.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Macros-Uniform-Input-Value\UniformInputValue.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Tags-Uniform\Uniform Optimize\Visibility.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Rules-Tags-Uniform\Uniform Optimize.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Strips-Uniform-Optimize\Optimize.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Base Templates\Base Optimize Configuration\Data\Enabled.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Base Templates\Base Optimize Configuration\Data\Sites.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Base Templates\Base Optimize Configuration\Data.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Base Templates\Base Optimize Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Common\Task\Task\Type.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Common\Task\Task.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Common\Task.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Logging\Logging Level.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings\Cookies\TrackerCookiesCampaign.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings\Cookies\TrackerCookiesCampaigns.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings\Cookies\TrackerCookiesGoals.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings\Cookies\TrackerCookiesPatternMatches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings\Cookies\TrackerCookiesProfileScores.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings\Data\CampaignParameters.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings\Data\GoalParameters.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings\Data\SessionTimeout.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings\Personalization\Disable Emitter.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings\Personalization\Emitter.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings\Personalization\Page Modes.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings\Scripts\IncludeScript.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings\Scripts\ScriptUrl.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings\Tracking\IncludeDependencies.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings\Cookies.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings\Data.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings\Personalization.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings\Scripts.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings\Tracking.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Page Mode\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Personalization Emitter\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Sitecore Site Item\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Testing\Uniform Sample Size\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Testing\Uniform Test\Data\End.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Testing\Uniform Test\Data\Size.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Testing\Uniform Test\Data\Start.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Testing\Uniform Test\Data.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Testing\Uniform Test\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Testing\Uniform Sample Size.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Testing\Uniform Test.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Contact Property Mapping\Data\Property.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Contact Property Mapping\Data.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Contact Property Mapping\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Custom Dimension Mapping\Data\Enabled.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Custom Dimension Mapping\Data\Index.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Custom Dimension Mapping\Data.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Custom Dimension Mapping\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Custom Dimension Mappings Fold\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Profile Pattern Mapping\Data\Profile.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Profile Pattern Mapping\Data\Use profile ID.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Profile Pattern Mapping\Data.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Profile Pattern Mapping\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Property\Data\Tracking ID.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Property\Data.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Property\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Tracking Configuration\Data\Activities.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Tracking Configuration\Data\Custom dimension mappings.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Tracking Configuration\Data\Properties.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Tracking Configuration\Data\ScriptUrl.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Tracking Configuration\Data.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Tracking Configuration\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Tracking Configurations\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Contact Property Mapping.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Custom Dimension Mapping.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Custom Dimension Mappings Fold.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Profile Pattern Mapping.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Property.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Tracking Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics\Tracking Configurations.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Mapping\Contact Property Value\Data\Property name.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Mapping\Contact Property Value\Data.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Mapping\Contact Property Value\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Mapping\Contact Property Value.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Oracle DMP\Campaign Property\Data\Property.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Oracle DMP\Campaign Property\Data.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Oracle DMP\Campaign Property\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Oracle DMP\Container\Data\Container ID.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Oracle DMP\Container\Data.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Oracle DMP\Container\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Oracle DMP\Tracking Configuration\Data\Activities.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Oracle DMP\Tracking Configuration\Data\Containers.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Oracle DMP\Tracking Configuration\Data\ScriptUrl.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Oracle DMP\Tracking Configuration\Mappings\Audience Id.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Oracle DMP\Tracking Configuration\Mappings\Campaign Id.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Oracle DMP\Tracking Configuration\Data.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Oracle DMP\Tracking Configuration\Mappings.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Oracle DMP\Tracking Configuration\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Oracle DMP\Tracking Configurations\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Oracle DMP\Campaign Property.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Oracle DMP\Container.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Oracle DMP\Tracking Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Oracle DMP\Tracking Configurations.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Sitecore xDB\Tracking Configuration\Data\OnlyTrackDispatchRequests.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Sitecore xDB\Tracking Configuration\Dispatch request modifications\HttpHeaders.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Sitecore xDB\Tracking Configuration\Dispatch request modifications\QueryStringParameters.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Sitecore xDB\Tracking Configuration\Logging\LoggingLevel.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Sitecore xDB\Tracking Configuration\Logging\LoggingPrefix.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Sitecore xDB\Tracking Configuration\Data.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Sitecore xDB\Tracking Configuration\Dispatch request modifications.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Sitecore xDB\Tracking Configuration\Logging.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Sitecore xDB\Tracking Configuration\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Sitecore xDB\Tracking Configurations\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Sitecore xDB\Tracking Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Sitecore xDB\Tracking Configurations.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Throttled Cookie\Data\Cookie.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Throttled Cookie\Data\Cutoff criteria.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Throttled Cookie\Data\Maximum value count.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Throttled Cookie\Data.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Throttled Cookie\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Throttling Cutoff Criteria\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Tracker Cookie Configuration\Data\Throttled cookies.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Tracker Cookie Configuration\Data.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Tracker Cookie Configuration\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Tracker Cookie Duration\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Google Analytics.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Mapping.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Oracle DMP.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Sitecore xDB.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Throttled Cookie.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Throttling Cutoff Criteria.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Tracker Activity.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Tracker Cookie Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Tracker Cookie Duration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking\Tracker Cookie Type.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Base Templates.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Common.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Logging.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Optimize Settings.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Page Mode.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Personalization Emitter.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Sitecore Site Item.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Testing.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize\Tracking.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize.Esi\Emitters\Emitters\Esi.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize.Esi\Emitters\Emitters.yml" />
+    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Modules-Canvas\Canvas\Query Folder\Templates Query.yml" />
+    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Modules-Canvas\Canvas\Query Folder.yml" />
+    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Modules-Canvas\Canvas.yml" />
+    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\Branches\AttachCanvasIntegrationService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasIntegrationService\Configuration\ApiHost.yml" />
+    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasIntegrationService\Configuration\ApiKey.yml" />
+    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasIntegrationService\Configuration\Comments.yml" />
+    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasIntegrationService\Configuration\Page Component Id.yml" />
+    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasIntegrationService\Configuration\ProjectId.yml" />
+    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasIntegrationService\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasIntegrationService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasIntegrationService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\PageTemplateCompositionMapping.yml" />
+    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas.yml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54444</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:54444/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

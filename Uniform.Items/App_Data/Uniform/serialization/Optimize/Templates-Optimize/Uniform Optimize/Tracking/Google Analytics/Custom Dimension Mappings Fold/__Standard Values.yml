@@ -1,0 +1,25 @@
+﻿---
+ID: "b25b982b-b7c7-4121-ae89-0459f211b482"
+Parent: "a973a140-1f78-47d2-a9d1-ae701a4db882"
+Template: "a973a140-1f78-47d2-a9d1-ae701a4db882"
+Path: /sitecore/templates/Uniform Optimize/Tracking/Google Analytics/Custom Dimension Mappings Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {2BAD1EA2-FB97-4542-AC06-CAA942D3EC51}
+    {56FC51C4-6744-4FE0-B437-B3F87A32224E}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200605T041243Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

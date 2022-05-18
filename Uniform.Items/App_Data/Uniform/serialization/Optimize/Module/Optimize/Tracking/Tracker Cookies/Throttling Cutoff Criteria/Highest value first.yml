@@ -1,0 +1,14 @@
+﻿---
+ID: "5720bb07-8626-4eb1-a757-c14900254aec"
+Parent: "a6af0c00-1793-4907-a13d-2bfa10c4b624"
+Template: "c9fe65da-ecd1-4396-a74b-afb01d86c0b3"
+Path: /sitecore/system/Uniform/Modules/Optimize/Tracking/Tracker Cookies/Throttling Cutoff Criteria/Highest value first
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210407T164749Z
