@@ -71,7 +71,7 @@
     <Reference Include="Uniform.ContentSync.AzureBlob, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Uniform.ContentSync.AzureBlob.7.0.220504-2\lib\net462\Uniform.ContentSync.AzureBlob.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.ContentSync.AkamaiNetStorage, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Uniform.ContentSync.AkamaiNetStorage">
       <HintPath>..\packages\Uniform.ContentSync.AkamaiNetStorage.7.0.220504-2\lib\net462\Uniform.ContentSync.AkamaiNetStorage.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.ContentSync.Core, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
