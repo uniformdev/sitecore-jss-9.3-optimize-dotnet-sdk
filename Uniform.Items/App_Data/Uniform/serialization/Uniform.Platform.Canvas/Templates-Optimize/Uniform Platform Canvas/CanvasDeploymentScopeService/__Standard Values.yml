@@ -1,0 +1,18 @@
+﻿---
+ID: "77eb9433-d6d9-4439-8d04-0f8a67d7208d"
+Parent: "51f800ff-a605-451e-bd90-10dade79ce1b"
+Template: "51f800ff-a605-451e-bd90-10dade79ce1b"
+Path: /sitecore/templates/Uniform Platform Canvas/CanvasDeploymentScopeService/__Standard Values
+DB: master
+SharedFields:
+- ID: "8e740fc6-20d8-43fd-ac47-014343ec67c5"
+  Hint: Attributes
+  Value: ref=uniform%2Fservices%2FcanvasDeploymentScopeService
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220518T020212Z

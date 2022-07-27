@@ -1,0 +1,18 @@
+﻿---
+ID: "dcd70e1e-f499-4fe6-8539-3e5c648949bf"
+Parent: "0b1e2ab2-65f1-4ae3-add5-7ae0d65e3825"
+Template: "0b1e2ab2-65f1-4ae3-add5-7ae0d65e3825"
+Path: /sitecore/templates/Uniform/ContentSync/AWS/AWSMediaContentSyncService/__Standard Values
+DB: master
+SharedFields:
+- ID: "8e740fc6-20d8-43fd-ac47-014343ec67c5"
+  Hint: Attributes
+  Value: ref=uniform%2Fservices%2FawsMediaContentSyncService
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210211T072058Z

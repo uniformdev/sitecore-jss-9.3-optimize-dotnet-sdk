@@ -1,0 +1,23 @@
+﻿---
+ID: "9a89b74c-8aa5-4412-ab45-c03881033f9b"
+Parent: "876a95a8-650c-47f4-a0cf-1a65006f23d9"
+Template: "876a95a8-650c-47f4-a0cf-1a65006f23d9"
+Path: /sitecore/templates/Uniform Optimize/Tracking/Google Analytics 4/Tracking Configurations/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{E38A031B-A4A8-4A65-940A-72CC9880EF70}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220706T214129Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,32 @@
+﻿---
+ID: "3efe447f-158d-4f3d-bacc-94f6603a2d20"
+Parent: "37dfb499-63ee-4f7d-ad38-a93252f93b21"
+Template: "b2613cc1-a748-46a3-a0db-3774574bd339"
+Path: /sitecore/templates/Uniform Platform Canvas/Branches/AttachCanvasPrefetchService
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/16x16/gear.png
+- ID: "854cc8f6-94ad-4521-a4b6-44ed8f794c98"
+  Hint: Command
+  Value: "uniform:configuration:attachcanvasprefetchservice"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{3E3F4A4D-CE26-42FC-9AC0-F1011CB198ED}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Configure: Canvas Content Sync Service [CanvasPrefetchService]"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210111T011555Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
