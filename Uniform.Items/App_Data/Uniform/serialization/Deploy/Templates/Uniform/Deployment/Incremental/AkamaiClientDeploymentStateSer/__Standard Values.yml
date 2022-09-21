@@ -1,0 +1,22 @@
+﻿---
+ID: "ebdfd952-23fd-40ea-8117-5031f64c2e4f"
+Parent: "7007b818-9d40-490d-a52c-48d2eb14d508"
+Template: "7007b818-9d40-490d-a52c-48d2eb14d508"
+Path: /sitecore/templates/Uniform/Deployment/Incremental/AkamaiClientDeploymentStateService/__Standard Values
+DB: master
+SharedFields:
+- ID: "8e740fc6-20d8-43fd-ac47-014343ec67c5"
+  Hint: Attributes
+  Value: ref=uniform%2Fservices%2FwebClientDeploymentStateService
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210106T221408Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

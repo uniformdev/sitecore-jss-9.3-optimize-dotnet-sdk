@@ -1,0 +1,26 @@
+﻿---
+ID: "fd7bc23c-d2e7-4523-ade1-e08caf026ace"
+Parent: "8828c281-8222-4e4b-b428-ed8b7c31ef76"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Uniform/Modules/Optimize/Tracking/Destinations/Google Analytics UA/Properties
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "uniform/32x32/folder-ua.png"
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{D1BF29A2-F6BA-42AA-B656-C3EB61894191}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200813T214539Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
