@@ -1,0 +1,14 @@
+﻿---
+ID: "328f8e44-a858-4c4d-8f09-5cb7f42a9787"
+Parent: "0dd26bd3-4c9c-4207-b775-bfdd30f781a8"
+Template: "0dd26bd3-4c9c-4207-b775-bfdd30f781a8"
+Path: /sitecore/templates/Uniform Optimize/Tracking/Google Analytics 4/Profile Pattern Mapping/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220706T192137Z

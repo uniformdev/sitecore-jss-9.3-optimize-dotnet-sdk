@@ -11,13 +11,17 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 475
+- ID: "be351a73-fcb0-4213-93fa-c302d8ab4f51"
+  Hint: Shared
+  Type: Checkbox
+  Value: 1
 Languages:
 - Language: en
   Fields:
   - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
     Hint: __Short description
     Value: |
-      transforms into "timestampFileName" attribute in <site /> configuration; default value: .$sitename.$uniformVersion.timestamp.txt
+      transforms into "timestampFileName" attribute in <site /> configuration; default value: .$siteconfiguration.$uniformVersion.timestamp.txt
   Versions:
   - Version: 1
     Fields:

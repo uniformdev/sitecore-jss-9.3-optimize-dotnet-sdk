@@ -12,12 +12,6 @@ SharedFields:
 - ID: "49f1667d-59b5-4e08-9f1a-e5326fb39154"
   Hint: ApiHost
   Value: "https://uniform.app"
-- ID: "67c91d22-f625-49d3-b068-3fcb8311c485"
-  Hint: Comments
-  Value: |
-    The "Default Composition" field value acts as a fallback Canvas composition when not specified in a different way. 
-    
-    [!] It is normal if "Default Composition" field shows error when other fields are empty - fill them in, save item and it will work.
 - ID: "8e740fc6-20d8-43fd-ac47-014343ec67c5"
   Hint: Attributes
   Value: ref=uniform%2Fservices%2FcanvasIntegrationService
