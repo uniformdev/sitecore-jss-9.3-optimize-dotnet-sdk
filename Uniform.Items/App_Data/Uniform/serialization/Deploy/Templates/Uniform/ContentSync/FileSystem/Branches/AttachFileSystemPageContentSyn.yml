@@ -1,8 +1,8 @@
 ﻿---
-ID: "9bec1e5e-5b66-484c-9ea2-ff424955842f"
-Parent: "37dfb499-63ee-4f7d-ad38-a93252f93b21"
+ID: "9818f85e-9d36-4e44-b268-4a51adb14510"
+Parent: "40aff70a-6f32-4bbf-99f2-d2852fc527ef"
 Template: "b2613cc1-a748-46a3-a0db-3774574bd339"
-Path: /sitecore/templates/Uniform Platform Canvas/Branches/AttachCanvasIntegrationService
+Path: /sitecore/templates/Uniform/ContentSync/FileSystem/Branches/AttachFileSystemPageContentSyncServiceItem
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
@@ -10,7 +10,7 @@ SharedFields:
   Value: applications/16x16/gear.png
 - ID: "854cc8f6-94ad-4521-a4b6-44ed8f794c98"
   Hint: Command
-  Value: "uniform:configuration:attachcanvasintegrationservice"
+  Value: "uniform:configuration:attachfilesystemcontentstorageprovider"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{3E3F4A4D-CE26-42FC-9AC0-F1011CB198ED}"
@@ -19,7 +19,7 @@ Languages:
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "Configure: Canvas Integration Service [CanvasIntegrationService]"
+    Value: "Configure: File System for Pages [FileSystemPageContentService]"
   Versions:
   - Version: 1
     Fields:

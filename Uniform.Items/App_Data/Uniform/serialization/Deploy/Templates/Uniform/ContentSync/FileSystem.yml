@@ -1,8 +1,8 @@
 ﻿---
-ID: "e1399170-ff74-4ad7-9bcd-8ef16c9c5aed"
-Parent: "62e44420-8cad-4d22-813a-d6f1b1e7c0b3"
-Template: "cebf2ea3-e6ee-4564-9d76-f71f431f6af6"
-Path: /sitecore/system/Uniform/Modules/Canvas/Query Folder
+ID: "9ace74bc-e27d-4404-b5cf-e9d627487241"
+Parent: "a344ba56-8d99-4308-8e0c-c6ac2091d681"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Uniform/ContentSync/FileSystem
 DB: master
 Languages:
 - Language: en
@@ -11,7 +11,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210811T104936Z
+      Value: 20210106T111045Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
