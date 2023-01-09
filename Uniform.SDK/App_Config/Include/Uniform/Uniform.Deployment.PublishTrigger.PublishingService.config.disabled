@@ -10,12 +10,7 @@
   <sitecore>
     <events>
       <event name="publish:complete">
-        <handler type="Uniform.Events.DeploymentTrigger, Uniform.Deployment.Core" method="OnPublishComplete" patch:before="*">
-          <param desc="useJobs">true</param>
-        </handler>
-      </event>
-      <event name="item:saved">
-        <handler type="Uniform.Events.SharedFieldsHandler, Uniform.Deployment.Core" method="OnItemSaved" patch:after="*" />
+        <handler type="Uniform.Events.DeploymentTrigger, Uniform.Deployment.Core" method="OnPublishComplete" patch:before="*" />
       </event>
     </events>
 
