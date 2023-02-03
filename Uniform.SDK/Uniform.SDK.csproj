@@ -69,115 +69,115 @@
       <HintPath>..\packages\Akamai.NetStorageKit.1.0.0\lib\Akamai.NetStorageKit.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Abstractions, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Abstractions.7.2.230201-1\lib\net462\Uniform.Abstractions.dll</HintPath>
+      <HintPath>..\packages\Uniform.Abstractions.7.2.230202-1\lib\net462\Uniform.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.ComponentModel, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.ComponentModel.7.2.230201-1\lib\net462\Uniform.ComponentModel.dll</HintPath>
+      <HintPath>..\packages\Uniform.ComponentModel.7.2.230202-1\lib\net462\Uniform.ComponentModel.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Content.Sitecore, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Content.Sitecore.7.2.230201-1\lib\net462\Uniform.Content.Sitecore.dll</HintPath>
+      <HintPath>..\packages\Uniform.Content.Sitecore.7.2.230202-1\lib\net462\Uniform.Content.Sitecore.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Content.Sitecore.MvcSupport, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Content.Sitecore.MvcSupport.7.2.230201-1\lib\net462\Uniform.Content.Sitecore.MvcSupport.dll</HintPath>
+      <HintPath>..\packages\Uniform.Content.Sitecore.MvcSupport.7.2.230202-1\lib\net462\Uniform.Content.Sitecore.MvcSupport.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.ContentSync.AzureBlob, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.ContentSync.AzureBlob.7.2.230201-1\lib\net462\Uniform.ContentSync.AzureBlob.dll</HintPath>
+      <HintPath>..\packages\Uniform.ContentSync.AzureBlob.7.2.230202-1\lib\net462\Uniform.ContentSync.AzureBlob.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.ContentSync.AkamaiNetStorage, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.ContentSync.AkamaiNetStorage.7.2.230201-1\lib\net462\Uniform.ContentSync.AkamaiNetStorage.dll</HintPath>
+      <HintPath>..\packages\Uniform.ContentSync.AkamaiNetStorage.7.2.230202-1\lib\net462\Uniform.ContentSync.AkamaiNetStorage.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.ContentSync.AWS, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.ContentSync.AWS.7.2.230201-1\lib\net462\Uniform.ContentSync.AWS.dll</HintPath>
+      <HintPath>..\packages\Uniform.ContentSync.AWS.7.2.230202-1\lib\net462\Uniform.ContentSync.AWS.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.ContentSync.Core, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.ContentSync.Core.7.2.230201-1\lib\net462\Uniform.ContentSync.Core.dll</HintPath>
+      <HintPath>..\packages\Uniform.ContentSync.Core.7.2.230202-1\lib\net462\Uniform.ContentSync.Core.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.ContentSync.InitialSync, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.ContentSync.InitialSync.7.2.230201-1\lib\net462\Uniform.ContentSync.InitialSync.dll</HintPath>
+      <HintPath>..\packages\Uniform.ContentSync.InitialSync.7.2.230202-1\lib\net462\Uniform.ContentSync.InitialSync.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Deployment.Core, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Deployment.Core.7.2.230201-1\lib\net462\Uniform.Deployment.Core.dll</HintPath>
+      <HintPath>..\packages\Uniform.Deployment.Core.7.2.230202-1\lib\net462\Uniform.Deployment.Core.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Deployment.HostedService, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Deployment.HostedService.7.2.230201-1\lib\net462\Uniform.Deployment.HostedService.dll</HintPath>
+      <HintPath>..\packages\Uniform.Deployment.HostedService.7.2.230202-1\lib\net462\Uniform.Deployment.HostedService.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Deployment.Incremental, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Deployment.Incremental.7.2.230201-1\lib\net462\Uniform.Deployment.Incremental.dll</HintPath>
+      <HintPath>..\packages\Uniform.Deployment.Incremental.7.2.230202-1\lib\net462\Uniform.Deployment.Incremental.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.PurgeCache.Core, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.PurgeCache.Core.7.2.230201-1\lib\net462\Uniform.PurgeCache.Core.dll</HintPath>
+      <HintPath>..\packages\Uniform.PurgeCache.Core.7.2.230202-1\lib\net462\Uniform.PurgeCache.Core.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.PurgeCache.Akamai, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.PurgeCache.Akamai.7.2.230201-1\lib\net462\Uniform.PurgeCache.Akamai.dll</HintPath>
+      <HintPath>..\packages\Uniform.PurgeCache.Akamai.7.2.230202-1\lib\net462\Uniform.PurgeCache.Akamai.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.PurgeCache.Cloudflare, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.PurgeCache.Cloudflare.7.2.230201-1\lib\net462\Uniform.PurgeCache.Cloudflare.dll</HintPath>
+      <HintPath>..\packages\Uniform.PurgeCache.Cloudflare.7.2.230202-1\lib\net462\Uniform.PurgeCache.Cloudflare.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.PurgeCache.CloudFront, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.PurgeCache.CloudFront.7.2.230201-1\lib\net462\Uniform.PurgeCache.CloudFront.dll</HintPath>
+      <HintPath>..\packages\Uniform.PurgeCache.CloudFront.7.2.230202-1\lib\net462\Uniform.PurgeCache.CloudFront.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Deployment.Netlify, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Deployment.Netlify.7.2.230201-1\lib\net462\Uniform.Deployment.Netlify.dll</HintPath>
+      <HintPath>..\packages\Uniform.Deployment.Netlify.7.2.230202-1\lib\net462\Uniform.Deployment.Netlify.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.ItemBasedConfiguration, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.ItemBasedConfiguration.7.2.230201-1\lib\net462\Uniform.ItemBasedConfiguration.dll</HintPath>
+      <HintPath>..\packages\Uniform.ItemBasedConfiguration.7.2.230202-1\lib\net462\Uniform.ItemBasedConfiguration.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Licensing, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Licensing.7.2.230201-1\lib\net45\Uniform.Licensing.dll</HintPath>
+      <HintPath>..\packages\Uniform.Licensing.7.2.230202-1\lib\net45\Uniform.Licensing.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Licensing.Sitecore, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Licensing.Sitecore.7.2.230201-1\lib\net452\Uniform.Licensing.Sitecore.dll</HintPath>
+      <HintPath>..\packages\Uniform.Licensing.Sitecore.7.2.230202-1\lib\net452\Uniform.Licensing.Sitecore.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Preview.Core, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Preview.Core.7.2.230201-1\lib\net462\Uniform.Preview.Core.dll</HintPath>
+      <HintPath>..\packages\Uniform.Preview.Core.7.2.230202-1\lib\net462\Uniform.Preview.Core.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Sitecore.Admin, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Sitecore.Admin.7.2.230201-1\lib\net462\Uniform.Sitecore.Admin.dll</HintPath>
+      <HintPath>..\packages\Uniform.Sitecore.Admin.7.2.230202-1\lib\net462\Uniform.Sitecore.Admin.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Optimize.Core, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Optimize.Core.7.2.230201-1\lib\net462\Uniform.Optimize.Core.dll</HintPath>
+      <HintPath>..\packages\Uniform.Optimize.Core.7.2.230202-1\lib\net462\Uniform.Optimize.Core.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Optimize.MvcSupport, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Optimize.MvcSupport.7.2.230201-1\lib\net462\Uniform.Optimize.MvcSupport.dll</HintPath>
+      <HintPath>..\packages\Uniform.Optimize.MvcSupport.7.2.230202-1\lib\net462\Uniform.Optimize.MvcSupport.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Optimize.Personalization, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Optimize.Personalization.7.2.230201-1\lib\net462\Uniform.Optimize.Personalization.dll</HintPath>
+      <HintPath>..\packages\Uniform.Optimize.Personalization.7.2.230202-1\lib\net462\Uniform.Optimize.Personalization.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Optimize.Personalization.Rules, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Optimize.Personalization.Rules.7.2.230201-1\lib\net462\Uniform.Optimize.Personalization.Rules.dll</HintPath>
+      <HintPath>..\packages\Uniform.Optimize.Personalization.Rules.7.2.230202-1\lib\net462\Uniform.Optimize.Personalization.Rules.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Optimize.Personalization.Esi.Core, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Optimize.Personalization.Esi.Core.7.2.230201-1\lib\net472\Uniform.Optimize.Personalization.Esi.Core.dll</HintPath>
+      <HintPath>..\packages\Uniform.Optimize.Personalization.Esi.Core.7.2.230202-1\lib\net472\Uniform.Optimize.Personalization.Esi.Core.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Optimize.Personalization.Esi.Mvc, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Optimize.Personalization.Esi.Mvc.7.2.230201-1\lib\net472\Uniform.Optimize.Personalization.Esi.Mvc.dll</HintPath>
+      <HintPath>..\packages\Uniform.Optimize.Personalization.Esi.Mvc.7.2.230202-1\lib\net472\Uniform.Optimize.Personalization.Esi.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Optimize.Personalization.Esi.OracleDmp, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Optimize.Personalization.Esi.OracleDmp.7.2.230201-1\lib\net472\Uniform.Optimize.Personalization.Esi.OracleDmp.dll</HintPath>
+      <HintPath>..\packages\Uniform.Optimize.Personalization.Esi.OracleDmp.7.2.230202-1\lib\net472\Uniform.Optimize.Personalization.Esi.OracleDmp.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Optimize.Personalization.Esi.Rules, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Optimize.Personalization.Esi.Rules.7.2.230201-1\lib\net472\Uniform.Optimize.Personalization.Esi.Rules.dll</HintPath>
+      <HintPath>..\packages\Uniform.Optimize.Personalization.Esi.Rules.7.2.230202-1\lib\net472\Uniform.Optimize.Personalization.Esi.Rules.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Optimize.Tracking, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Optimize.Tracking.7.2.230201-1\lib\net472\Uniform.Optimize.Tracking.dll</HintPath>
+      <HintPath>..\packages\Uniform.Optimize.Tracking.7.2.230202-1\lib\net472\Uniform.Optimize.Tracking.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Optimize.Tracking.GoogleAnalytics, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Optimize.Tracking.GoogleAnalytics.7.2.230201-1\lib\net472\Uniform.Optimize.Tracking.GoogleAnalytics.dll</HintPath>
+      <HintPath>..\packages\Uniform.Optimize.Tracking.GoogleAnalytics.7.2.230202-1\lib\net472\Uniform.Optimize.Tracking.GoogleAnalytics.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Optimize.Tracking.GoogleAnalytics4, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Optimize.Tracking.GoogleAnalytics4.7.2.230201-1\lib\net472\Uniform.Optimize.Tracking.GoogleAnalytics4.dll</HintPath>
+      <HintPath>..\packages\Uniform.Optimize.Tracking.GoogleAnalytics4.7.2.230202-1\lib\net472\Uniform.Optimize.Tracking.GoogleAnalytics4.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Optimize.Tracking.OracleDmp, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Optimize.Tracking.OracleDmp.7.2.230201-1\lib\net472\Uniform.Optimize.Tracking.OracleDmp.dll</HintPath>
+      <HintPath>..\packages\Uniform.Optimize.Tracking.OracleDmp.7.2.230202-1\lib\net472\Uniform.Optimize.Tracking.OracleDmp.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Optimize.Tracking.SitecoreXdb, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Optimize.Tracking.SitecoreXdb.7.2.230201-1\lib\net472\Uniform.Optimize.Tracking.SitecoreXdb.dll</HintPath>
+      <HintPath>..\packages\Uniform.Optimize.Tracking.SitecoreXdb.7.2.230202-1\lib\net472\Uniform.Optimize.Tracking.SitecoreXdb.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Optimize.Personalization.JssSupport, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Optimize.Personalization.JssSupport.7.2.230201-1\lib\net472\Uniform.Optimize.Personalization.JssSupport.dll</HintPath>
+      <HintPath>..\packages\Uniform.Optimize.Personalization.JssSupport.7.2.230202-1\lib\net472\Uniform.Optimize.Personalization.JssSupport.dll</HintPath>
     </Reference>
     <Reference Include="Uniform.Optimize.Personalization.Esi.Jss, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Optimize.Personalization.Esi.Jss.7.2.230201-1\lib\net472\Uniform.Optimize.Personalization.Esi.Jss.dll</HintPath>
+      <HintPath>..\packages\Uniform.Optimize.Personalization.Esi.Jss.7.2.230202-1\lib\net472\Uniform.Optimize.Personalization.Esi.Jss.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
