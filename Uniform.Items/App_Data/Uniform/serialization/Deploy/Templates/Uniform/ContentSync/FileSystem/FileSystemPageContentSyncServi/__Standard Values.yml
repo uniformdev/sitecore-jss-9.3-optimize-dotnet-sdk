@@ -1,0 +1,18 @@
+﻿---
+ID: "c0a44e85-2025-4add-af00-227ffe4e5b92"
+Parent: "dbbccf66-f13a-43df-aabe-a0cfe36e0785"
+Template: "dbbccf66-f13a-43df-aabe-a0cfe36e0785"
+Path: /sitecore/templates/Uniform/ContentSync/FileSystem/FileSystemPageContentSyncService/__Standard Values
+DB: master
+SharedFields:
+- ID: "8e740fc6-20d8-43fd-ac47-014343ec67c5"
+  Hint: Attributes
+  Value: ref=uniform%2Fservices%2FfileSystemPageContentSyncService
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210211T072102Z

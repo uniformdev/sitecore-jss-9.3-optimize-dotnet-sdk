@@ -254,9 +254,24 @@
                                                                 <%= TryGetDeploymentStateServiceInfo(site) %><br/>
                                                             </dd>
 
+                                                            <dt class="text-base leading-6 font-medium  md:col-span-5">content:</dt>
+                                                            <dd class="overflow-auto mt-2 md:mt-0 md:col-span-7">
+                                                                <%= TryGetContentDeploymentServiceInfo(site) %><br/>
+                                                            </dd>
+
+                                                            <dt class="text-base leading-6 font-medium  md:col-span-5"></dt>
+                                                            <dd class="overflow-auto mt-2 md:mt-0 md:col-span-7">
+                                                                <%= TryGetPageContentSyncServiceInfo(site) %><br/>
+                                                            </dd>
+
                                                             <dt class="text-base leading-6 font-medium  md:col-span-5">media:</dt>
                                                             <dd class="overflow-auto mt-2 md:mt-0 md:col-span-7">
                                                                 <%= TryGetMediaDeploymentScopeServiceInfo(site) %><br/>
+                                                            </dd>
+
+                                                            <dt class="text-base leading-6 font-medium  md:col-span-5"></dt>
+                                                            <dd class="overflow-auto mt-2 md:mt-0 md:col-span-7">
+                                                                <%= TryGetMediaContentSyncServiceInfo(site) %><br/>
                                                             </dd>
 
                                                             <dt class="text-base leading-6 font-medium md:col-span-5">CDN purge:</dt>
@@ -302,9 +317,24 @@
                                                                 <%= TryGetDeploymentScopeServiceInfo(site) %><br/>
                                                             </dd>
 
+                                                            <dt class="text-base leading-6 font-medium  md:col-span-5">content:</dt>
+                                                            <dd class="overflow-auto mt-2 md:mt-0 md:col-span-7">
+                                                                <%= TryGetContentDeploymentServiceInfo(site) %><br/>
+                                                            </dd>
+
+                                                            <dt class="text-base leading-6 font-medium  md:col-span-5"></dt>
+                                                            <dd class="overflow-auto mt-2 md:mt-0 md:col-span-7">
+                                                                <%= TryGetPageContentSyncServiceInfo(site) %><br/>
+                                                            </dd>
+
                                                             <dt class="text-base leading-6 font-medium md:col-span-5">media:</dt>
                                                             <dd class="overflow-auto mt-2 md:mt-0 md:col-span-7">
                                                                 <%= TryGetMediaDeploymentScopeServiceInfo(site) %><br/>
+                                                            </dd>
+
+                                                            <dt class="text-base leading-6 font-medium md:col-span-5"></dt>
+                                                            <dd class="overflow-auto mt-2 md:mt-0 md:col-span-7">
+                                                                <%= TryGetMediaContentSyncServiceInfo(site) %><br/>
                                                             </dd>
 
                                                             <dt class="text-base leading-6 font-medium md:col-span-5">CDN purge:</dt>

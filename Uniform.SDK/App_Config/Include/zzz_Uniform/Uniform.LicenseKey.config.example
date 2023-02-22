@@ -10,6 +10,14 @@
            (after defining environment variable iisreset is required to reflect the changes)
       -->
       <setting name="Uniform.LicenseKey" value="" />
+
+      <!-- UNIFORM - LICENSE KEY - CACHE FILE
+           The setting defines the cache file path of the Uniform license key 
+           which will be generated after first successful online activation.
+           Once the file exists, the Sitecore instance does not need active internet
+           connection for Uniform to validate license.
+      -->
+      <setting name="Uniform.LicenseKey.CacheFile" value="/App_Data/uniform-license-cache.skm" />
     </settings>
   </sitecore>
 </configuration>

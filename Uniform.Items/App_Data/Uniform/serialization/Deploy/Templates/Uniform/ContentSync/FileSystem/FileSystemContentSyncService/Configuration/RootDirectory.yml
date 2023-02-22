@@ -1,8 +1,8 @@
 ﻿---
-ID: "0a4cdef8-7575-41db-9753-dbb4da5f1581"
-Parent: "14d06266-a4c7-4fb9-be00-eb417a4d5156"
+ID: "7a34f09f-2c13-43e1-b851-18858f3a5d1f"
+Parent: "25e50680-2167-48be-a3dc-bc2f720a9564"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Uniform Platform Canvas/CanvasIntegrationService/Configuration/ApiKey
+Path: /sitecore/templates/Uniform/ContentSync/FileSystem/FileSystemContentSyncService/Configuration/RootDirectory
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
@@ -10,7 +10,7 @@ SharedFields:
   Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 62
+  Value: 100
 - ID: "be351a73-fcb0-4213-93fa-c302d8ab4f51"
   Hint: Shared
   Type: Checkbox
@@ -22,7 +22,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210709T141155Z
+      Value: 20210106T110357Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

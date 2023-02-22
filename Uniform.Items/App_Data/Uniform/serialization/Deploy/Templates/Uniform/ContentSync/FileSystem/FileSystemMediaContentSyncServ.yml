@@ -1,32 +1,28 @@
 ﻿---
-ID: "51f800ff-a605-451e-bd90-10dade79ce1b"
-Parent: "52d1446b-f298-45e2-9b6b-ef447336f962"
+ID: "27d0d247-b739-4583-aefa-b5387675bdb3"
+Parent: "9ace74bc-e27d-4404-b5cf-e9d627487241"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Uniform Platform Canvas/CanvasDeploymentScopeService
+Path: /sitecore/templates/Uniform/ContentSync/FileSystem/FileSystemMediaContentSyncService
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: applications/16x16/gear.png
+  Value: Applications/16x16/gear.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
-  Value: "{BD2DF16B-FA23-4DE2-B39B-DCB8CE12E19E}"
+  Value: "{28F88862-216D-450A-9024-124230C3203A}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{77EB9433-D6D9-4439-8D04-0F8A67D7208D}"
+  Value: "{D7B4814D-3BFC-42D4-929B-75F1FFB55FAF}"
 Languages:
 - Language: en
-  Fields:
-  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
-    Hint: __Display name
-    Value: 
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210106T105924Z
+      Value: 20210111T033006Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

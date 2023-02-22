@@ -1,8 +1,8 @@
 ﻿---
-ID: "37dfb499-63ee-4f7d-ad38-a93252f93b21"
-Parent: "52d1446b-f298-45e2-9b6b-ef447336f962"
+ID: "40aff70a-6f32-4bbf-99f2-d2852fc527ef"
+Parent: "9ace74bc-e27d-4404-b5cf-e9d627487241"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Uniform Platform Canvas/Branches
+Path: /sitecore/templates/Uniform/ContentSync/FileSystem/Branches
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"

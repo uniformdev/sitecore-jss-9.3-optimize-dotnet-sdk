@@ -130,6 +130,17 @@
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobMediaContentSyncServi.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobPageContentSyncServic.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\Branches\AttachFileSystemMediaContentSy.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\Branches\AttachFileSystemPageContentSyn.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\FileSystemContentSyncService\Configuration\RootDirectory.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\FileSystemContentSyncService\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\FileSystemContentSyncService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\FileSystemMediaContentSyncServ\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\FileSystemPageContentSyncServi\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\FileSystemContentSyncService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\FileSystemMediaContentSyncServ.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\FileSystemPageContentSyncServi.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Commands\Initial Sync.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Content Sync Operation Status\__Standard Values.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Site Operation Status\Operation Status\finishedDatetime.yml" />
@@ -143,6 +154,7 @@
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AWS.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\JavaScript Rendering\__Standard Values.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\Renderings Folder\__Standard Values.yml" />
@@ -635,30 +647,6 @@
     <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize.yml" />
     <Content Include="App_Data\Uniform\serialization\Optimize.Esi\Emitters\Emitters\Esi.yml" />
     <Content Include="App_Data\Uniform\serialization\Optimize.Esi\Emitters\Emitters.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Modules-Canvas\Canvas\Query Folder\Templates Query.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Modules-Canvas\Canvas\Query Folder.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Modules-Canvas\Canvas.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\Branches\AttachCanvasDeploymentScopeSer.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\Branches\AttachCanvasIntegrationService.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\Branches\AttachCanvasPrefetchService.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasDeploymentScopeService\Configuration\ContentSyncRoots.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasDeploymentScopeService\Configuration.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasDeploymentScopeService\__Standard Values.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasIntegrationService\Configuration\ApiHost.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasIntegrationService\Configuration\ApiKey.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasIntegrationService\Configuration\Page Component Id.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasIntegrationService\Configuration\ProjectId.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasIntegrationService\Configuration.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasIntegrationService\__Standard Values.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasPrefetchService\Configuration\ApiKey.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasPrefetchService\Configuration.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasPrefetchService\__Standard Values.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\Branches.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasDeploymentScopeService.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasIntegrationService.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\CanvasPrefetchService.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas\PageTemplateCompositionMapping.yml" />
-    <Content Include="App_Data\Uniform\serialization\Uniform.Platform.Canvas\Templates-Optimize\Uniform Platform Canvas.yml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
