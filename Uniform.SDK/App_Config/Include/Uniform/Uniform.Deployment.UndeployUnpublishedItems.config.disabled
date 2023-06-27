@@ -1,0 +1,56 @@
+<!-- 
+    UNIFORM
+    This file is a part of Uniform distribution package
+
+    IMPORTANT! Do not modify this file because all changes will be lost during further upgrade:
+    Use patch files instead: https://doc.sitecore.com/developers/90/platform-administration-and-architecture/en/use-a-patch-file-to-customize-the-sitecore-configuration.html
+-->
+
+<configuration xmlns:set="http://www.sitecore.net/xmlconfig/set/" xmlns:patch="http://www.sitecore.net/xmlconfig/" xmlns:role="http://www.sitecore.net/xmlconfig/role/">
+    <sitecore role:require="ContentManagement or Standalone">
+        <sitecore.experienceeditor.speak.requests>
+            <request name="ExperienceEditor.Delete.ExecuteRequest" type="Sitecore.ExperienceEditor.Speak.Ribbon.Requests.Delete.ExecuteRequest, Sitecore.ExperienceEditor.Speak.Ribbon"
+                     set:type="Uniform.ExperienceEditor.DeleteItem, Uniform.Deployment.Incremental">
+                <param desc="mapNodeService" ref="uniform/services/mapNodeService" />
+            </request>
+        </sitecore.experienceeditor.speak.requests>
+        <processors>
+            <uiDeleteItems>
+                <processor type="Sitecore.Shell.Framework.Pipelines.DeleteItems,Sitecore.Kernel" method="Execute" mode="on"
+                           set:type="Uniform.Shell.Framework.Pipelines.DeleteItems,Uniform.Deployment.Incremental">
+                    <param desc="mapNodeService" ref="uniform/services/mapNodeService" />
+                </processor>
+            </uiDeleteItems>
+        </processors>
+        <pipelines role:require="ContentManagement or Standalone">
+            <group name="uniform" groupName="uniform">
+                <pipelines>
+                    <deployment>
+                        <processor type="Uniform.Pipelines.Deployment.DeleteUndeployedPages, Uniform.Deployment.Incremental" />
+                    </deployment>
+                </pipelines>
+            </group>
+            <getContentEditorWarnings>
+                <processor type="Uniform.Pipelines.GetContentEditorWarnings.PendingDeleteWarnings, Uniform.Deployment.Incremental">
+                    <param desc="mapNodeService" ref="uniform/services/mapNodeService" />
+                </processor>
+            </getContentEditorWarnings>
+        </pipelines>
+
+        <settings>
+            <!-- UNIFORM EXPERIMENTAL UNDEPLOY UNPUBLISHED PAGES
+                When enabled, when a page item gets unpublished due to publishing restrictions
+                (item gets deleted from the web database while still exists in the master database)
+                * remove the corresponding <path>/index.html files from the blob storage
+                (when self-hosted deployment service is used)
+                * purge CDN cache for the corresponding <path>
+            -->
+            <setting name="Uniform.Deploy.Experimental.UndeployUnpublishedPages" value="true" />
+        </settings>
+        <events>
+            <event name="item:saved">
+                <handler type="Uniform.Events.ItemRenamedHandler, Uniform.Deployment.Incremental" method="OnItemSaved" patch:after="*" />
+            </event>            
+        </events>
+    </sitecore>
+</configuration>

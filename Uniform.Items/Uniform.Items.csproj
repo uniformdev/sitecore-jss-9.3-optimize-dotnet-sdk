@@ -60,6 +60,7 @@
     <Content Include="App_Config\Include\zzz_Uniform_Unicorn\Uniform.Unicorn.Optimize.config" />
     <Content Include="App_Config\Include\zzz_Uniform_Unicorn\Uniform.Unicorn.Optimize.Esi.config" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-Administration\Uniform\Check Page Data.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-Administration\Uniform\Clear Site Configuration Cache.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-Administration\Uniform\Initial Content Sync.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-Administration\Uniform\Re-Sync Page.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-Administration\Uniform\Re-Sync Tree.yml" />
@@ -76,6 +77,18 @@
     <Content Include="App_Data\Uniform\serialization\Deploy\Module\Uniform\Modules.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Module\Uniform\SiteConfigurations.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Module\Uniform.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Module-Logging\Logging\LogLevels\DEBUG.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Module-Logging\Logging\LogLevels\DISABLED.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Module-Logging\Logging\LogLevels\ERROR.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Module-Logging\Logging\LogLevels\FATAL.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Module-Logging\Logging\LogLevels\INFO.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Module-Logging\Logging\LogLevels\WARN.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Module-Logging\Logging\RedirectModes\Disabled.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Module-Logging\Logging\RedirectModes\Lift.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Module-Logging\Logging\RedirectModes\RedirectAll.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Module-Logging\Logging\LogLevels.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Module-Logging\Logging\RedirectModes.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Module-Logging\Logging.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Modules-Purge\Purge\Akamai\Methods\delete.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Modules-Purge\Purge\Akamai\Methods\invalidate.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Modules-Purge\Purge\Akamai\Networks\production.yml" />
@@ -262,6 +275,7 @@
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\AttachableServicesFolder.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\Configuration.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\NewConfiguration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Logging\UniformLogEnum.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\OptimizeIntegration\Branches\AttachOptimizeIntegrationServi.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\OptimizeIntegration\OptimizeIntegrationService\__Standard Values.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\OptimizeIntegration\Branches.yml" />
@@ -297,14 +311,29 @@
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Item\Uniform\PublicUrl.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Item\Uniform.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Item\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Root Folder\Deploy\DeployStrategy.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Root Folder\Deploy\Enabled.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Root Folder\Deploy\StopOnFail.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Root Folder\Logging\LogRedirectMode.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Root Folder\Logging\RedirectLogLevel.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Root Folder\Logging\UniformLogLevel.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Root Folder\MultiThread\ThreadsCount.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Root Folder\ThreadPoolConcurrent\MaxDegreeOfParallelism.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Root Folder\Deploy.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Root Folder\Logging.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Root Folder\MultiThread.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Root Folder\ThreadPoolConcurrent.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Root Folder\__Standard Values.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Logging.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\OptimizeIntegration.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Preview.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Item.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Root Folder.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform.yml" />
     <Content Include="App_Data\Uniform\serialization\Optimize\Chunks-Uniform-Optimize\Uniform Optimize\Personalization Audit.yml" />
     <Content Include="App_Data\Uniform\serialization\Optimize\Chunks-Uniform-Optimize\Uniform Optimize.yml" />
@@ -647,6 +676,8 @@
     <Content Include="App_Data\Uniform\serialization\Optimize\Templates-Optimize\Uniform Optimize.yml" />
     <Content Include="App_Data\Uniform\serialization\Optimize.Esi\Emitters\Emitters\Esi.yml" />
     <Content Include="App_Data\Uniform\serialization\Optimize.Esi\Emitters\Emitters.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize.Esi\PageSizeValidator\Uniform\ESI Page Size.yml" />
+    <Content Include="App_Data\Uniform\serialization\Optimize.Esi\PageSizeValidator\Uniform.yml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
