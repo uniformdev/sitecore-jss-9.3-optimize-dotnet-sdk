@@ -1,16 +1,16 @@
 ﻿---
-ID: "0076165e-ecf4-40cb-8812-8875af54ab5f"
-Parent: "27ed98a1-681f-4cc2-9905-40d0448f2012"
+ID: "dbc9af24-cce2-4cd4-8390-5f197c8e59b6"
+Parent: "097dff26-bf8f-4e38-87a3-84500ea181c2"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Uniform/Deployment/Incremental/AkamaiClientDeploymentStateService/Configuration/UploadAccountId
+Path: /sitecore/templates/Uniform/Uniform Root Folder/MultiThread/ThreadsCount
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Single-Line Text"
+  Value: Number
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 400
+  Value: 100
 - ID: "be351a73-fcb0-4213-93fa-c302d8ab4f51"
   Hint: Shared
   Type: Checkbox
@@ -22,7 +22,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20220809T091345Z
+      Value: 20230406T105351Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

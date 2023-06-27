@@ -8,6 +8,12 @@ SharedFields:
 - ID: "8e740fc6-20d8-43fd-ac47-014343ec67c5"
   Hint: Attributes
   Value: ref=uniform%2Fservices%2FcloudflarePurgeService
+- ID: "de60ba00-b1a6-4902-8ac6-dd6a64a68db6"
+  Hint: ChangedItemsCount
+  Value: 600
+- ID: "fd30988f-3075-4145-94a3-6d08bb2faab1"
+  Hint: RetriesCount
+  Value: 3
 Languages:
 - Language: en
   Versions:
@@ -20,9 +26,3 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\admin
-    - ID: "de60ba00-b1a6-4902-8ac6-dd6a64a68db6"
-      Hint: ChangedItemsCount
-      Value: 600
-    - ID: "fd30988f-3075-4145-94a3-6d08bb2faab1"
-      Hint: RetriesCount
-      Value: 3
